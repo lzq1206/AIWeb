@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T01:43:38.364982Z",
+  "generatedAt": "2026-09-16T01:48:40.154991Z",
   "batch": {
     "size": 12,
     "queries": [
-      "vibecoding",
-      "vibe-coding"
+      "vibe-phrase",
+      "generative-ui"
     ],
     "window": "pushed since 2026-03-20"
   },
@@ -55,52 +55,6 @@
       "rank": 1
     },
     {
-      "id": "egonex-ai__understand-anything",
-      "repo": "Egonex-AI/Understand-Anything",
-      "name": "Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot,…",
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
-      "stars": 82979,
-      "forks": 6993,
-      "language": "TypeScript",
-      "topics": [
-        "antigravity-skills",
-        "business-knowledge",
-        "claude-code",
-        "claude-skills",
-        "codebase-analysis",
-        "codex",
-        "codex-skills",
-        "developer-tools-ai-agent"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "antigravity skills",
-        "business knowledge",
-        "claude code"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/Egonex-AI/Understand-Anything",
-      "coverHeight": 178,
-      "coverColor": "#5b3d5c",
-      "score": 141.3,
-      "aiSignals": [
-        "agent",
-        "ai",
-        "claude",
-        "codex",
-        "copilot",
-        "gemini",
-        "llm",
-        "vibe"
-      ],
-      "sourceQuery": "vibe-coding",
-      "createdAt": "2026-03-15T02:30:51Z",
-      "pushedAt": "2026-09-12T05:31:43Z",
-      "likes": 0,
-      "rank": 2
-    },
-    {
       "id": "leonxlnx__taste-skill",
       "repo": "Leonxlnx/taste-skill",
       "name": "taste-skill",
@@ -141,7 +95,7 @@
       "createdAt": "2026-02-19T21:44:05Z",
       "pushedAt": "2026-08-24T15:23:56Z",
       "likes": 0,
-      "rank": 3
+      "rank": 2
     },
     {
       "id": "zarazhangrui__frontend-slides",
@@ -182,53 +136,96 @@
         "generative",
         "vibe"
       ],
-      "sourceQuery": "vibe-coding",
+      "sourceQuery": "generative-ui",
       "createdAt": "2026-01-28T00:42:34Z",
       "pushedAt": "2026-06-23T20:08:19Z",
       "likes": 0,
-      "rank": 4
+      "rank": 3
     },
     {
-      "id": "oraios__serena",
-      "repo": "oraios/serena",
-      "name": "serena",
-      "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent",
-      "url": "https://github.com/oraios/serena",
-      "stars": 29416,
-      "forks": 1994,
-      "language": "Python",
+      "id": "vxcontrol__pentagi",
+      "repo": "vxcontrol/pentagi",
+      "name": "pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "stars": 24500,
+      "forks": 3139,
+      "language": "Go",
       "topics": [
-        "agent",
-        "ai",
-        "ai-coding",
-        "claude",
-        "claude-code",
-        "codex",
-        "ide",
-        "jetbrains"
+        "ai-agents",
+        "ai-security-tool",
+        "anthropic",
+        "autonomous-agents",
+        "golang",
+        "gpt",
+        "graphql",
+        "multi-agent-system"
       ],
       "category": "Agent",
       "tags": [
         "Agent",
-        "AI",
-        "ai coding",
-        "claude"
+        "ai agents",
+        "ai security tool",
+        "anthropic"
       ],
-      "thumbnail": "https://opengraph.githubassets.com/1/oraios/serena",
-      "coverHeight": 185,
-      "coverColor": "#624237",
-      "score": 126.0,
+      "thumbnail": "https://opengraph.githubassets.com/1/vxcontrol/pentagi",
+      "coverHeight": 175,
+      "coverColor": "#5b3d5c",
+      "score": 126.2,
       "aiSignals": [
         "agent",
         "ai",
-        "claude",
-        "codex",
-        "mcp",
-        "vibe"
+        "anthropic",
+        "gpt",
+        "openai"
       ],
-      "sourceQuery": "vibe-coding",
-      "createdAt": "2025-03-23T22:35:24Z",
-      "pushedAt": "2026-09-16T00:25:21Z",
+      "sourceQuery": "vibe-phrase",
+      "createdAt": "2025-01-06T22:22:48Z",
+      "pushedAt": "2026-09-10T05:45:01Z",
+      "likes": 0,
+      "rank": 4
+    },
+    {
+      "id": "aider-ai__aider",
+      "repo": "Aider-AI/aider",
+      "name": "aider",
+      "description": "aider is AI pair programming in your terminal",
+      "url": "https://github.com/Aider-AI/aider",
+      "stars": 48977,
+      "forks": 4951,
+      "language": "Python",
+      "topics": [
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli",
+        "command-line",
+        "gemini",
+        "gpt-3",
+        "gpt-35-turbo"
+      ],
+      "category": "Agent",
+      "tags": [
+        "Agent",
+        "anthropic",
+        "chatgpt",
+        "claude 3"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/Aider-AI/aider",
+      "coverHeight": 220,
+      "coverColor": "#3f345f",
+      "score": 124.8,
+      "aiSignals": [
+        "ai",
+        "anthropic",
+        "claude",
+        "gemini",
+        "gpt",
+        "openai"
+      ],
+      "sourceQuery": "vibe-phrase",
+      "createdAt": "2023-05-09T18:57:49Z",
+      "pushedAt": "2026-05-22T14:02:20Z",
       "likes": 0,
       "rank": 5
     },
@@ -324,7 +321,7 @@
       "name": "context7",
       "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
       "url": "https://github.com/upstash/context7",
-      "stars": 62067,
+      "stars": 62068,
       "forks": 3000,
       "language": "TypeScript",
       "topics": [
@@ -350,7 +347,7 @@
         "mcp",
         "vibe"
       ],
-      "sourceQuery": "vibe-coding",
+      "sourceQuery": "vibe-phrase",
       "createdAt": "2025-03-26T23:40:39Z",
       "pushedAt": "2026-09-15T13:11:04Z",
       "likes": 0,
@@ -489,48 +486,330 @@
       "rank": 11
     },
     {
-      "id": "zgsm-ai__costrict",
-      "repo": "zgsm-ai/costrict",
-      "name": "costrict",
-      "description": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion.",
-      "url": "https://github.com/zgsm-ai/costrict",
-      "stars": 4428,
-      "forks": 201,
-      "language": "TypeScript",
+      "id": "phuryn__pm-skills",
+      "repo": "phuryn/pm-skills",
+      "name": "pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "url": "https://github.com/phuryn/pm-skills",
+      "stars": 26352,
+      "forks": 2807,
+      "language": "多语言",
       "topics": [
-        "agent",
-        "ai",
-        "aicoding",
-        "claude",
-        "cline",
-        "cloud",
-        "coding",
-        "deepseek"
+        "agent-skill-repository",
+        "agent-skills",
+        "agentic-skills",
+        "claude-code-marketplace",
+        "claude-code-plugins",
+        "claude-cowork-plugin",
+        "product-management"
       ],
       "category": "Agent",
       "tags": [
         "Agent",
-        "AI",
-        "aicoding",
+        "agent skill repository",
+        "agent skills",
+        "agentic skills"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/phuryn/pm-skills",
+      "coverHeight": 230,
+      "coverColor": "#624237",
+      "score": 117.1,
+      "aiSignals": [
+        "agent",
+        "agentic",
         "claude"
       ],
-      "thumbnail": "https://opengraph.githubassets.com/1/zgsm-ai/costrict",
-      "coverHeight": 174,
-      "coverColor": "#244867",
-      "score": 117.5,
+      "sourceQuery": "vibe-phrase",
+      "createdAt": "2026-03-01T23:33:44Z",
+      "pushedAt": "2026-09-14T21:15:33Z",
+      "likes": 0,
+      "rank": 12
+    },
+    {
+      "id": "copilotkit__openbot",
+      "repo": "CopilotKit/OpenBot",
+      "name": "OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "stars": 4955,
+      "forks": 628,
+      "language": "TypeScript",
+      "topics": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "ag ui",
+        "agent governance",
+        "ai agents"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/CopilotKit/OpenBot",
+      "coverHeight": 203,
+      "coverColor": "#624237",
+      "score": 110.8,
       "aiSignals": [
         "agent",
         "ai",
-        "claude",
-        "deepseek",
-        "gemini",
-        "vibecoding"
+        "generative",
+        "mcp"
       ],
-      "sourceQuery": "vibecoding",
-      "createdAt": "2025-04-10T02:06:51Z",
-      "pushedAt": "2026-09-09T12:13:44Z",
+      "sourceQuery": "generative-ui",
+      "createdAt": "2026-08-17T00:44:59Z",
+      "pushedAt": "2026-09-15T23:15:12Z",
       "likes": 0,
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "id": "miurla__morphic",
+      "repo": "miurla/morphic",
+      "name": "morphic",
+      "description": "An AI-powered search engine with a generative UI",
+      "url": "https://github.com/miurla/morphic",
+      "stars": 9123,
+      "forks": 2347,
+      "language": "TypeScript",
+      "topics": [
+        "generative-ai",
+        "generative-ui",
+        "nextjs",
+        "ollama",
+        "react",
+        "searxng",
+        "shadcn-ui",
+        "tailwindcss"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "generative ai",
+        "generative ui",
+        "nextjs"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/miurla/morphic",
+      "coverHeight": 268,
+      "coverColor": "#3f345f",
+      "score": 105.3,
+      "aiSignals": [
+        "ai",
+        "generative"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2024-04-05T13:55:29Z",
+      "pushedAt": "2026-09-16T01:46:15Z",
+      "likes": 0,
+      "rank": 14
+    },
+    {
+      "id": "marvkr__better-design",
+      "repo": "marvkr/better-design",
+      "name": "better-design",
+      "description": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Noti…",
+      "url": "https://github.com/marvkr/better-design",
+      "stars": 233,
+      "forks": 10,
+      "language": "TypeScript",
+      "topics": [
+        "ai-design",
+        "claude-code",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents",
+        "component-library",
+        "cursor"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "ai design",
+        "claude code",
+        "claude code for design"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/marvkr/better-design",
+      "coverHeight": 206,
+      "coverColor": "#345449",
+      "score": 94.2,
+      "aiSignals": [
+        "ai",
+        "claude",
+        "codex",
+        "copilot",
+        "generative",
+        "mcp",
+        "vibe"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2026-05-05T20:01:56Z",
+      "pushedAt": "2026-08-20T10:18:47Z",
+      "likes": 0,
+      "rank": 15
+    },
+    {
+      "id": "agnosticui__agnosticui",
+      "repo": "AgnosticUI/agnosticui",
+      "name": "agnosticui",
+      "description": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows.",
+      "url": "https://github.com/AgnosticUI/agnosticui",
+      "stars": 826,
+      "forks": 46,
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent-skills",
+        "ai-agents",
+        "context-engineering",
+        "css",
+        "generative-ui",
+        "javascipt",
+        "lit"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "accessibility",
+        "agent skills",
+        "ai agents"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/AgnosticUI/agnosticui",
+      "coverHeight": 232,
+      "coverColor": "#3f345f",
+      "score": 91.7,
+      "aiSignals": [
+        "agent",
+        "ai",
+        "generative",
+        "prompt"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2020-09-07T21:03:08Z",
+      "pushedAt": "2026-06-30T19:42:00Z",
+      "likes": 0,
+      "rank": 16
+    },
+    {
+      "id": "vcmf__dim0",
+      "repo": "vcmf/dim0",
+      "name": "dim0",
+      "description": "Open-source, real-time collaborative AI canvas - notes, mini-apps, and agents on one infinite board.",
+      "url": "https://github.com/vcmf/dim0",
+      "stars": 140,
+      "forks": 16,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "canvas",
+        "fastapi",
+        "generative-ui",
+        "infinite-canvas",
+        "knowledge-graph",
+        "mindmap",
+        "mini-apps"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "ai agent",
+        "canvas",
+        "fastapi"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/vcmf/dim0",
+      "coverHeight": 191,
+      "coverColor": "#345449",
+      "score": 82.5,
+      "aiSignals": [
+        "agent",
+        "ai",
+        "generative"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2026-03-20T19:42:54Z",
+      "pushedAt": "2026-09-15T20:50:42Z",
+      "likes": 0,
+      "rank": 17
+    },
+    {
+      "id": "molefrog__moi",
+      "repo": "molefrog/moi",
+      "name": "moi",
+      "description": "💾 MOI: agent-agnostic generative UI workspace. Give your agent a skill and let it build software around itself.",
+      "url": "https://github.com/molefrog/moi",
+      "stars": 166,
+      "forks": 12,
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "claude-code",
+        "claude-skills",
+        "generative-ui",
+        "openclaw"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "agents",
+        "claude code",
+        "claude skills"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/molefrog/moi",
+      "coverHeight": 208,
+      "coverColor": "#5b3d5c",
+      "score": 81.7,
+      "aiSignals": [
+        "agent",
+        "claude",
+        "generative"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2026-03-07T12:09:57Z",
+      "pushedAt": "2026-09-15T09:18:52Z",
+      "likes": 0,
+      "rank": 18
+    },
+    {
+      "id": "copilotkit__generative-ui",
+      "repo": "CopilotKit/generative-ui",
+      "name": "generative-ui",
+      "description": "Generative UI examples for: AG-UI, A2UI/Open-JSON-UI, and MCP Apps.",
+      "url": "https://github.com/CopilotKit/generative-ui",
+      "stars": 830,
+      "forks": 73,
+      "language": "多语言",
+      "topics": [
+        "a2ui",
+        "ag-ui",
+        "agentic-ai",
+        "generative-ui",
+        "mcp-apps"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "a2ui",
+        "ag ui",
+        "agentic ai"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/CopilotKit/generative-ui",
+      "coverHeight": 206,
+      "coverColor": "#624237",
+      "score": 79.9,
+      "aiSignals": [
+        "agentic",
+        "ai",
+        "generative",
+        "mcp"
+      ],
+      "sourceQuery": "generative-ui",
+      "createdAt": "2026-01-08T14:15:31Z",
+      "pushedAt": "2026-03-20T19:55:36Z",
+      "likes": 0,
+      "rank": 19
     }
   ]
 }
