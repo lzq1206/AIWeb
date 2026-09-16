@@ -47,7 +47,7 @@ jobs:
           fi
 
       # GITHUB_TOKEN pushes do not trigger a second workflow. Publish here so
-      # the scheduled fetch and the Pages deploy remain one reliable daily job.
+      # the scheduled fetch and the Pages deploy remain one reliable job.
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
