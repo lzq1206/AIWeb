@@ -156,6 +156,7 @@ function projectCard(project) {
   const safeUrlValue = safeUrl(project.url) || "https://github.com/";
   const likeCount = Math.max(0, Number(project.likes || 0) + Number(state.user.likeDeltas[project.id] || 0));
   const score = Math.round(Number(project.score || 0));
+  const trendMark = project.trendLabel === "rising" ? "↗" : "✦";
   const fallbackLabel = escapeHtml(project.category || "AI Build");
   const thumbnail = safeThumbnail
     ? `<img src="${escapeAttribute(safeThumbnail)}" alt="${escapeAttribute(project.name)} 预览图" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false" /><div class="cover-fallback" hidden style="--cover-bg:${escapeAttribute(project.coverColor || "#214b4c")}"><strong>${escapeHtml(project.name)}</strong><span>${fallbackLabel}</span></div>`
@@ -165,7 +166,7 @@ function projectCard(project) {
     <article class="project-card" style="--cover-height:${coverHeight}px;--cover-bg:${escapeAttribute(project.coverColor || "#172b39")}">
       <a class="project-cover" href="${escapeAttribute(safeUrlValue)}" target="_blank" rel="noreferrer" aria-label="打开 ${escapeAttribute(project.name)} 的 GitHub 仓库">
         ${thumbnail}
-        <span class="cover-overlay"><span class="signal-badge">${escapeHtml(project.category || "AI Build")}</span><span class="score-mark">✦ ${score > 0 ? score : "NEW"}</span></span>
+        <span class="cover-overlay"><span class="signal-badge">${escapeHtml(project.category || "AI Build")}</span><span class="score-mark">${trendMark} ${score > 0 ? score : "NEW"}</span></span>
       </a>
       <div class="card-body">
         <div class="card-title-row"><h3 class="card-title"><a href="${escapeAttribute(safeUrlValue)}" target="_blank" rel="noreferrer">${escapeHtml(project.name)}</a></h3></div>
@@ -292,4 +293,3 @@ function safeUrl(value) {
 
 function escapeHtml(value) { return String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]); }
 function escapeAttribute(value) { return escapeHtml(value); }
-

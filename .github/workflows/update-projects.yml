@@ -2,8 +2,8 @@ name: Refresh AIWeb catalog
 
 on:
   schedule:
-    # Daily, offset from the hour to avoid a burst with other scheduled jobs.
-    - cron: "17 3 * * *"
+    # Every three hours, offset from the hour to avoid a burst with other jobs.
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:

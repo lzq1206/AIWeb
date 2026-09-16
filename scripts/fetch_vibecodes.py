@@ -22,17 +22,24 @@ STATE_PATH = ROOT / "data" / "fetch-state.json"
 API_URL = "https://api.github.com/search/repositories"
 USER_AGENT = "AIWeb-vibe-radar/1.0"
 REQUEST_GAP_SECONDS = 1.75
-MAX_SEARCH_RESULTS_PER_QUERY = 24
-MAX_NEW_PROJECTS_PER_RUN = 12
-MAX_LIBRARY_SIZE = 72
+MAX_SEARCH_RESULTS_PER_QUERY = 50
+MAX_UPDATES_PER_RUN = 20
+MAX_LIBRARY_SIZE = 200
 
 SEARCHES = [
-    ("vibecoding", "topic:vibecoding"),
-    ("vibe-coding", "topic:vibe-coding"),
-    ("vibe-phrase", '"vibe coding" in:name,description,readme'),
-    ("generative-ui", "topic:generative-ui"),
+    ("vibecoding-hot", "topic:vibecoding", "stars"),
+    ("vibecoding-rising", "topic:vibecoding", "updated"),
+    ("vibe-coding-hot", "topic:vibe-coding", "stars"),
+    ("vibe-coding-rising", "topic:vibe-coding", "updated"),
+    ("vibe-phrase-rising", '"vibe coding" in:name,description,readme', "updated"),
+    ("generative-ui-rising", "topic:generative-ui", "updated"),
 ]
-ALLOWED_SOURCE_QUERIES = {name for name, _ in SEARCHES}
+ALLOWED_SOURCE_QUERIES = {name for name, _, _ in SEARCHES} | {
+    "vibecoding",
+    "vibe-coding",
+    "vibe-phrase",
+    "generative-ui",
+}
 
 AI_TERMS = {
     "ai": 2,
@@ -175,7 +182,7 @@ def passes_quality_gate(name: str, repo: str, description: str, topics: list[str
     return True
 
 
-def candidate_from_item(item: dict, query_name: str) -> dict | None:
+def candidate_from_item(item: dict, query_name: str, sort_mode: str, star_history: dict, observed_at: datetime) -> dict | None:
     name = str(item.get("name") or "").strip()
     repo = str(item.get("full_name") or "").strip()
     description = clean_text(item.get("description"))
@@ -194,11 +201,21 @@ def candidate_from_item(item: dict, query_name: str) -> dict | None:
     forks = int(item.get("forks_count") or 0)
     pushed_at = item.get("pushed_at") or item.get("updated_at")
     created_at = item.get("created_at")
-    age_days = max(0.0, (now_utc() - parse_date(pushed_at)).total_seconds() / 86400)
+    age_days = max(0.0, (observed_at - parse_date(pushed_at)).total_seconds() / 86400)
     freshness = max(0.0, 1.0 - min(age_days, 365.0) / 365.0)
-    popularity = math.log10(stars + 1) * 17
+    previous = star_history.get(repo.lower()) if isinstance(star_history, dict) else None
+    stars_delta = 0
+    stars_per_day = 0.0
+    if isinstance(previous, dict):
+        previous_stars = int(previous.get("stars") or 0)
+        previous_at = parse_date(previous.get("observedAt"))
+        elapsed_hours = max(1.0, (observed_at - previous_at).total_seconds() / 3600)
+        stars_delta = max(0, stars - previous_stars)
+        stars_per_day = round(stars_delta / elapsed_hours * 24, 1)
+    velocity_score = min(42, math.log10(stars_per_day + 1) * 19)
+    popularity = math.log10(stars + 1) * 18
     signals = min(30, len(ai_hits) * 4 + len(vibe_hits) * 2 + len(product_hits) * 2)
-    score = round(popularity + freshness * 28 + signals, 1)
+    score = round(popularity + freshness * 28 + velocity_score + signals, 1)
     category = classify(searchable, topics)
     tags = []
     for tag in [category, *topics, *ai_hits]:
@@ -225,8 +242,12 @@ def candidate_from_item(item: dict, query_name: str) -> dict | None:
         "coverHeight": 165 + (int(hashlib.sha1(repo.encode()).hexdigest()[:2], 16) % 105),
         "coverColor": stable_cover_color(repo),
         "score": score,
+        "starsDelta": stars_delta,
+        "starsPerDay": stars_per_day,
+        "trendLabel": "rising" if stars_delta > 0 else "hot",
         "aiSignals": sorted(set(ai_hits + vibe_hits))[:8],
         "sourceQuery": query_name,
+        "searchMode": sort_mode,
         "createdAt": created_at,
         "pushedAt": pushed_at,
         "likes": 0,
@@ -252,16 +273,27 @@ def main() -> None:
         )
     ]
 
+    star_history = state.get("starHistory", {})
+    star_history = star_history if isinstance(star_history, dict) else {}
+    baseline_at = parse_date(payload.get("generatedAt")) if isinstance(payload, dict) else now_utc()
+    for item in existing:
+        repo_key = str(item.get("repo") or "").lower()
+        if repo_key and repo_key not in star_history:
+            star_history[repo_key] = {
+                "stars": int(item.get("stars") or 0),
+                "observedAt": baseline_at.isoformat().replace("+00:00", "Z"),
+            }
     next_search = int(state.get("nextSearch", 0)) % len(SEARCHES)
     selected_searches = [SEARCHES[next_search], SEARCHES[(next_search + 1) % len(SEARCHES)]]
     since = (now_utc() - timedelta(days=180)).date().isoformat()
+    observed_at = now_utc()
     candidates: list[dict] = []
     seen: set[str] = set()
 
-    for query_name, base_query in selected_searches:
+    for query_name, base_query, sort_mode in selected_searches:
         result = request_json({
             "q": f"{base_query} pushed:>={since} stars:>=8",
-            "sort": "stars",
+            "sort": sort_mode,
             "order": "desc",
             "per_page": MAX_SEARCH_RESULTS_PER_QUERY,
             "page": 1,
@@ -273,12 +305,12 @@ def main() -> None:
             if not repo or repo in seen:
                 continue
             seen.add(repo)
-            candidate = candidate_from_item(item, query_name)
+            candidate = candidate_from_item(item, query_name, sort_mode, star_history, observed_at)
             if candidate:
                 candidates.append(candidate)
 
-    candidates.sort(key=lambda item: (float(item.get("score", 0)), int(item.get("stars", 0))), reverse=True)
-    candidates = candidates[:MAX_NEW_PROJECTS_PER_RUN]
+    candidates.sort(key=lambda item: (float(item.get("score", 0)), int(item.get("starsDelta", 0)), int(item.get("stars", 0))), reverse=True)
+    candidates = candidates[:MAX_UPDATES_PER_RUN]
 
     by_repo = {str(item.get("repo", "")).lower(): item for item in existing if item.get("repo")}
     for candidate in candidates:
@@ -286,6 +318,18 @@ def main() -> None:
         if old:
             candidate["likes"] = int(old.get("likes") or 0)
         by_repo[candidate["repo"].lower()] = {**old, **candidate}
+        star_history[candidate["repo"].lower()] = {
+            "stars": int(candidate.get("stars") or 0),
+            "observedAt": observed_at.isoformat().replace("+00:00", "Z"),
+        }
+
+    # Keep the snapshot bounded while retaining enough history for a useful
+    # three-hour velocity comparison.
+    star_history = dict(sorted(
+        star_history.items(),
+        key=lambda pair: parse_date(pair[1].get("observedAt")),
+        reverse=True,
+    )[:600])
 
     items = list(by_repo.values())
     items.sort(key=lambda item: (float(item.get("score", 0)), int(item.get("stars", 0))), reverse=True)
@@ -298,7 +342,8 @@ def main() -> None:
         "generatedAt": generated_at,
         "batch": {
             "size": len(candidates),
-            "queries": [name for name, _ in selected_searches],
+            "queries": [name for name, _, _ in selected_searches],
+            "modes": [mode for _, _, mode in selected_searches],
             "window": f"pushed since {since}",
         },
         "items": items,
@@ -307,6 +352,7 @@ def main() -> None:
         "nextSearch": (next_search + 2) % len(SEARCHES),
         "runs": int(state.get("runs", 0)) + 1,
         "lastRun": generated_at,
+        "starHistory": star_history,
     }
     save_json(DATA_PATH, output)
     save_json(STATE_PATH, next_state)
