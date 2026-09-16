@@ -1,5 +1,4 @@
 const DATA_URL = "data/projects.json";
-const COMMENTS_REPO = "lzq1206/AIWeb";
 const STORAGE_KEY = "aiweb-vibe-radar-v1";
 
 const fallbackProjects = [
@@ -21,7 +20,6 @@ const fallbackProjects = [
     score: 0,
     createdAt: new Date().toISOString(),
     pushedAt: new Date().toISOString(),
-    likes: 0,
   },
 ];
 
@@ -41,10 +39,6 @@ const els = {
   favoriteCount: document.querySelector("#favorite-count"),
   search: document.querySelector("#search-input"),
   toast: document.querySelector("#toast"),
-  dialog: document.querySelector("#comments-dialog"),
-  commentsTitle: document.querySelector("#comments-title"),
-  commentsCaption: document.querySelector("#comments-caption"),
-  utterancesHost: document.querySelector("#utterances-host"),
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -97,8 +91,6 @@ function bindEvents() {
   });
 
   document.querySelector("#clear-filters").addEventListener("click", clearFilters);
-  document.querySelector("#close-comments").addEventListener("click", () => els.dialog.close());
-  els.dialog.addEventListener("close", () => { els.utterancesHost.replaceChildren(); });
 
   els.grid.addEventListener("click", (event) => {
     const actionButton = event.target.closest("[data-action]");
@@ -106,13 +98,11 @@ function bindEvents() {
     const project = state.projects.find((item) => item.id === actionButton.dataset.id);
     if (!project) return;
 
-    if (actionButton.dataset.action === "like") toggleLike(project);
     if (actionButton.dataset.action === "favorite") toggleFavorite(project);
-    if (actionButton.dataset.action === "comment") openComments(project);
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "/" && document.activeElement !== els.search && !els.dialog.open) {
+    if (event.key === "/" && document.activeElement !== els.search) {
       event.preventDefault();
       els.search.focus();
     }
@@ -143,13 +133,11 @@ function filteredProjects() {
 }
 
 function projectCard(project) {
-  const liked = Boolean(state.user.liked[project.id]);
   const saved = Boolean(state.user.favorites[project.id]);
   const tags = (project.tags || project.topics || []).slice(0, 3);
   const coverHeight = Math.max(150, Math.min(280, Number(project.coverHeight) || 194));
   const safeThumbnail = safeUrl(project.thumbnail);
   const safeUrlValue = safeUrl(project.url) || "https://github.com/";
-  const likeCount = Math.max(0, Number(project.likes || 0) + Number(state.user.likeDeltas[project.id] || 0));
   const score = Math.round(Number(project.score || 0));
   const trendMark = project.trendLabel === "rising" ? "↗" : "✦";
   const fallbackLabel = escapeHtml(project.category || "AI Build");
@@ -173,21 +161,10 @@ function projectCard(project) {
           <div class="meta-right"><span>${formatRelative(project.pushedAt || project.createdAt)}</span></div>
         </div>
         <div class="card-actions">
-          <button class="action-button ${liked ? "is-liked" : ""}" type="button" data-action="like" data-id="${escapeAttribute(project.id)}" aria-pressed="${liked}"><span class="action-icon">${liked ? "♥" : "♡"}</span><span>${likeCount || "赞"}</span></button>
           <button class="action-button ${saved ? "is-saved" : ""}" type="button" data-action="favorite" data-id="${escapeAttribute(project.id)}" aria-pressed="${saved}"><span class="action-icon">${saved ? "★" : "☆"}</span><span>${saved ? "已收藏" : "收藏"}</span></button>
-          <button class="action-button comment-button" type="button" data-action="comment" data-id="${escapeAttribute(project.id)}"><span class="action-icon">◌</span><span>评论</span></button>
         </div>
       </div>
     </article>`;
-}
-
-function toggleLike(project) {
-  const wasLiked = Boolean(state.user.liked[project.id]);
-  state.user.liked[project.id] = !wasLiked;
-  state.user.likeDeltas[project.id] = Number(state.user.likeDeltas[project.id] || 0) + (wasLiked ? -1 : 1);
-  saveUserState();
-  render();
-  showToast(wasLiked ? "已取消点赞" : "已点赞，这个偏好只保存在当前设备");
 }
 
 function toggleFavorite(project) {
@@ -197,21 +174,6 @@ function toggleFavorite(project) {
   updateFavoriteCount();
   render();
   showToast(saved ? "已移出收藏" : "已加入收藏");
-}
-
-function openComments(project) {
-  els.commentsTitle.textContent = `${project.name} · 项目讨论`;
-  els.commentsCaption.textContent = "评论会通过 GitHub Issues 保存，登录 GitHub 后即可参与。";
-  els.utterancesHost.replaceChildren();
-  const script = document.createElement("script");
-  script.src = "https://utteranc.es/client.js";
-  script.async = true;
-  script.crossOrigin = "anonymous";
-  script.setAttribute("repo", COMMENTS_REPO);
-  script.setAttribute("issue-term", `vibecode:${project.id}`);
-  script.setAttribute("theme", "github-dark");
-  els.utterancesHost.appendChild(script);
-  els.dialog.showModal();
 }
 
 function updateFavoriteCount() {
@@ -232,9 +194,9 @@ function clearFilters() {
 function loadUserState() {
   try {
     const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    return { liked: raw.liked || {}, likeDeltas: raw.likeDeltas || {}, favorites: raw.favorites || {} };
+    return { favorites: raw.favorites || {} };
   } catch (_) {
-    return { liked: {}, likeDeltas: {}, favorites: {} };
+    return { favorites: {} };
   }
 }
 
