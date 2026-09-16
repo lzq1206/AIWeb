@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T01:51:43.838211Z",
+  "generatedAt": "2026-09-16T01:53:25.241754Z",
   "batch": {
     "size": 12,
     "queries": [
-      "ai-native",
-      "ai-tool"
+      "vibe-phrase",
+      "generative-ui"
     ],
     "window": "pushed since 2026-03-20"
   },
@@ -15,8 +15,8 @@
       "name": "open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dash…",
       "url": "https://github.com/nexu-io/open-design",
-      "stars": 96388,
-      "forks": 11199,
+      "stars": 96390,
+      "forks": 11198,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -50,7 +50,7 @@
       ],
       "sourceQuery": "vibe-coding",
       "createdAt": "2026-04-28T04:25:20Z",
-      "pushedAt": "2026-09-16T01:24:31Z",
+      "pushedAt": "2026-09-16T01:47:04Z",
       "likes": 0,
       "rank": 1
     },
@@ -60,7 +60,7 @@
       "name": "taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "url": "https://github.com/Leonxlnx/taste-skill",
-      "stars": 87417,
+      "stars": 87420,
       "forks": 5952,
       "language": "JavaScript",
       "topics": [
@@ -103,8 +103,8 @@
       "name": "frontend-slides",
       "description": "Create beautiful slides on the web using a coding agent's frontend skills",
       "url": "https://github.com/zarazhangrui/frontend-slides",
-      "stars": 29365,
-      "forks": 2318,
+      "stars": 29366,
+      "forks": 2319,
       "language": "JavaScript",
       "topics": [
         "ai-slides",
@@ -148,7 +148,7 @@
       "name": "pentagi",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "url": "https://github.com/vxcontrol/pentagi",
-      "stars": 24500,
+      "stars": 24501,
       "forks": 3139,
       "language": "Go",
       "topics": [
@@ -445,50 +445,6 @@
       "rank": 10
     },
     {
-      "id": "yaoapp__yao",
-      "repo": "YaoApp/yao",
-      "name": "yao",
-      "description": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
-      "url": "https://github.com/YaoApp/yao",
-      "stars": 7956,
-      "forks": 710,
-      "language": "Go",
-      "topics": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-skills",
-        "agent-workspaces",
-        "ai-agents",
-        "ai-native",
-        "claude-code",
-        "coding-agent"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agent harness",
-        "agent orchestration",
-        "agent skills"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/YaoApp/yao",
-      "coverHeight": 246,
-      "coverColor": "#214b4c",
-      "score": 119.9,
-      "aiSignals": [
-        "agent",
-        "ai",
-        "ai-native",
-        "claude",
-        "deepseek",
-        "mcp"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2021-09-06T09:20:27Z",
-      "pushedAt": "2026-09-10T14:58:19Z",
-      "likes": 0,
-      "rank": 11
-    },
-    {
       "id": "flipped-aurora__gin-vue-admin",
       "repo": "flipped-aurora/gin-vue-admin",
       "name": "gin-vue-admin",
@@ -527,7 +483,7 @@
       "createdAt": "2019-09-01T13:22:35Z",
       "pushedAt": "2026-09-14T07:12:41Z",
       "likes": 0,
-      "rank": 12
+      "rank": 11
     },
     {
       "id": "phuryn__pm-skills",
@@ -535,7 +491,7 @@
       "name": "pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "url": "https://github.com/phuryn/pm-skills",
-      "stars": 26352,
+      "stars": 26353,
       "forks": 2807,
       "language": "多语言",
       "topics": [
@@ -567,88 +523,7 @@
       "createdAt": "2026-03-01T23:33:44Z",
       "pushedAt": "2026-09-14T21:15:33Z",
       "likes": 0,
-      "rank": 13
-    },
-    {
-      "id": "zeromicro__go-zero",
-      "repo": "zeromicro/go-zero",
-      "name": "go-zero",
-      "description": "A cloud-native Go microservices framework with cli tool for productivity.",
-      "url": "https://github.com/zeromicro/go-zero",
-      "stars": 33328,
-      "forks": 4316,
-      "language": "Go",
-      "topics": [
-        "ai-native",
-        "ai-native-development",
-        "cloud-native",
-        "code-generation",
-        "framework",
-        "gateway",
-        "go",
-        "golang"
-      ],
-      "category": "AI Tool",
-      "tags": [
-        "AI Tool",
-        "ai native",
-        "ai native development",
-        "cloud native"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/zeromicro/go-zero",
-      "coverHeight": 255,
-      "coverColor": "#244867",
-      "score": 116.8,
-      "aiSignals": [
-        "ai",
-        "ai-native"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2020-08-07T15:37:57Z",
-      "pushedAt": "2026-09-14T19:53:53Z",
-      "likes": 0,
-      "rank": 14
-    },
-    {
-      "id": "hbai-ltd__toonflow-app",
-      "repo": "HBAI-Ltd/Toonflow-app",
-      "name": "Toonflow-app",
-      "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Fea…",
-      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
-      "stars": 15644,
-      "forks": 2816,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-content-creation",
-        "ai-tool",
-        "ai-video-generation",
-        "automation",
-        "content-generation",
-        "desktop-app",
-        "electron"
-      ],
-      "category": "AI Tool",
-      "tags": [
-        "AI Tool",
-        "AI",
-        "ai content creation",
-        "ai video generation"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/HBAI-Ltd/Toonflow-app",
-      "coverHeight": 255,
-      "coverColor": "#214b4c",
-      "score": 115.7,
-      "aiSignals": [
-        "ai",
-        "generative",
-        "llm"
-      ],
-      "sourceQuery": "ai-tool",
-      "createdAt": "2026-01-29T10:25:45Z",
-      "pushedAt": "2026-08-26T10:49:08Z",
-      "likes": 0,
-      "rank": 15
+      "rank": 12
     },
     {
       "id": "copilotkit__openbot",
@@ -656,7 +531,7 @@
       "name": "OpenBot",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "url": "https://github.com/CopilotKit/OpenBot",
-      "stars": 4955,
+      "stars": 4956,
       "forks": 628,
       "language": "TypeScript",
       "topics": [
@@ -689,7 +564,7 @@
       "createdAt": "2026-08-17T00:44:59Z",
       "pushedAt": "2026-09-15T23:15:12Z",
       "likes": 0,
-      "rank": 16
+      "rank": 13
     },
     {
       "id": "miurla__morphic",
@@ -729,259 +604,7 @@
       "createdAt": "2024-04-05T13:55:29Z",
       "pushedAt": "2026-09-16T01:46:15Z",
       "likes": 0,
-      "rank": 17
-    },
-    {
-      "id": "apurvsinghgautam__robin",
-      "repo": "apurvsinghgautam/robin",
-      "name": "robin",
-      "description": "AI-Powered Dark Web OSINT Tool",
-      "url": "https://github.com/apurvsinghgautam/robin",
-      "stars": 7150,
-      "forks": 1337,
-      "language": "Python",
-      "topics": [
-        "ai-tool",
-        "darkweb",
-        "darkweb-osint",
-        "investigation-tool",
-        "llm-powered",
-        "osint",
-        "osint-tool"
-      ],
-      "category": "AI Tool",
-      "tags": [
-        "AI Tool",
-        "darkweb",
-        "darkweb osint",
-        "investigation tool"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/apurvsinghgautam/robin",
-      "coverHeight": 250,
-      "coverColor": "#5b3d5c",
-      "score": 105.2,
-      "aiSignals": [
-        "ai",
-        "llm"
-      ],
-      "sourceQuery": "ai-tool",
-      "createdAt": "2025-04-08T14:20:34Z",
-      "pushedAt": "2026-09-11T13:24:27Z",
-      "likes": 0,
-      "rank": 18
-    },
-    {
-      "id": "4thfever__cultivation-world-simulator",
-      "repo": "4thfever/cultivation-world-simulator",
-      "name": "cultivation-world-simulator",
-      "description": "基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。| An open-source Cultivation World Simulator using Agentic Workflow to create a dynamic, emerging Xianxia world.",
-      "url": "https://github.com/4thfever/cultivation-world-simulator",
-      "stars": 2081,
-      "forks": 235,
-      "language": "Python",
-      "topics": [
-        "agentic-workflow",
-        "ai",
-        "ai-agents",
-        "ai-native",
-        "autonomous-agents",
-        "cultivation",
-        "cultivation-game",
-        "game"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agentic workflow",
-        "AI",
-        "ai agents"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/4thfever/cultivation-world-simulator",
-      "coverHeight": 241,
-      "coverColor": "#5b3d5c",
-      "score": 102.1,
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "ai-native",
-        "llm",
-        "prompt"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2025-08-18T15:09:49Z",
-      "pushedAt": "2026-08-16T11:21:40Z",
-      "likes": 0,
-      "rank": 19
-    },
-    {
-      "id": "opensumi__core",
-      "repo": "opensumi/core",
-      "name": "core",
-      "description": "A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.",
-      "url": "https://github.com/opensumi/core",
-      "stars": 3655,
-      "forks": 452,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-first",
-        "ai-native",
-        "editor",
-        "electron",
-        "ide",
-        "ide-framework",
-        "mcp"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "AI",
-        "ai first",
-        "ai native"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/opensumi/core",
-      "coverHeight": 256,
-      "coverColor": "#5b3d5c",
-      "score": 101.4,
-      "aiSignals": [
-        "ai",
-        "ai-first",
-        "ai-native",
-        "mcp"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2021-11-17T15:42:48Z",
-      "pushedAt": "2026-09-01T09:46:23Z",
-      "likes": 0,
-      "rank": 20
-    },
-    {
-      "id": "infiniflow__infinity",
-      "repo": "infiniflow/infinity",
-      "name": "infinity",
-      "description": "The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text.",
-      "url": "https://github.com/infiniflow/infinity",
-      "stars": 4708,
-      "forks": 444,
-      "language": "C++",
-      "topics": [
-        "ai-native",
-        "approximate-nearest-neighbor-search",
-        "bm25",
-        "cpp20",
-        "cpp20-modules",
-        "embedding",
-        "full-text-search",
-        "hnsw"
-      ],
-      "category": "Vibe Coding",
-      "tags": [
-        "Vibe Coding",
-        "ai native",
-        "approximate nearest neighbor search",
-        "bm25"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/infiniflow/infinity",
-      "coverHeight": 170,
-      "coverColor": "#345449",
-      "score": 99.9,
-      "aiSignals": [
-        "ai",
-        "ai-native",
-        "llm"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2022-07-18T13:52:38Z",
-      "pushedAt": "2026-09-09T13:38:52Z",
-      "likes": 0,
-      "rank": 21
-    },
-    {
-      "id": "codewithmuhilan__lightswind-ui-library",
-      "repo": "codewithMUHILAN/Lightswind-UI-Library",
-      "name": "Lightswind-UI-Library",
-      "description": "The AI-native CLI-first React component library. 160+ animated, accessible, production-ready components with MCP Server support for Cursor, Claude & GitHub Copilot. Copy-paste architecture…",
-      "url": "https://github.com/codewithMUHILAN/Lightswind-UI-Library",
-      "stars": 1035,
-      "forks": 110,
-      "language": "TypeScript",
-      "topics": [
-        "ai-native",
-        "animated-components",
-        "component-library",
-        "design-system",
-        "framer-motion",
-        "frontend",
-        "gsap",
-        "lightswind-ui"
-      ],
-      "category": "UI / Design",
-      "tags": [
-        "UI / Design",
-        "ai native",
-        "animated components",
-        "component library"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/codewithMUHILAN/Lightswind-UI-Library",
-      "coverHeight": 238,
-      "coverColor": "#3f345f",
-      "score": 97.1,
-      "aiSignals": [
-        "ai",
-        "ai-native",
-        "claude",
-        "copilot",
-        "mcp"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2023-07-11T13:17:53Z",
-      "pushedAt": "2026-07-24T07:25:42Z",
-      "likes": 0,
-      "rank": 22
-    },
-    {
-      "id": "joinly-ai__joinly",
-      "repo": "joinly-ai/joinly",
-      "name": "joinly",
-      "description": "Make your meetings accessible to AI Agents",
-      "url": "https://github.com/joinly-ai/joinly",
-      "stars": 565,
-      "forks": 93,
-      "language": "Python",
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "ai-tool",
-        "conversational-ai",
-        "llm",
-        "mcp",
-        "meeting-agent",
-        "meeting-assistant"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agentic ai",
-        "ai agent",
-        "ai tool"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/joinly-ai/joinly",
-      "coverHeight": 182,
-      "coverColor": "#345449",
-      "score": 95.7,
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "llm",
-        "mcp"
-      ],
-      "sourceQuery": "ai-tool",
-      "createdAt": "2025-05-29T01:21:02Z",
-      "pushedAt": "2026-09-01T11:27:36Z",
-      "likes": 0,
-      "rank": 23
+      "rank": 14
     },
     {
       "id": "marvkr__better-design",
@@ -1026,91 +649,7 @@
       "createdAt": "2026-05-05T20:01:56Z",
       "pushedAt": "2026-08-20T10:18:47Z",
       "likes": 0,
-      "rank": 24
-    },
-    {
-      "id": "arcsin1__oh-my-ppt",
-      "repo": "arcsin1/oh-my-ppt",
-      "name": "oh-my-ppt",
-      "description": "Describe what you need — a presentation, lesson, or story — and let the AI build clean, beautiful HTML slides for you. Local-first. Works offline. Works for you.",
-      "url": "https://github.com/arcsin1/oh-my-ppt",
-      "stars": 1962,
-      "forks": 192,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "ai-ppt",
-        "ai-ppt-generator",
-        "ai-tool",
-        "aippt",
-        "design-systems",
-        "desktop-app",
-        "html-ppt"
-      ],
-      "category": "UI / Design",
-      "tags": [
-        "UI / Design",
-        "ai agents",
-        "ai ppt",
-        "ai ppt generator"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/arcsin1/oh-my-ppt",
-      "coverHeight": 266,
-      "coverColor": "#345449",
-      "score": 93.2,
-      "aiSignals": [
-        "ai"
-      ],
-      "sourceQuery": "ai-tool",
-      "createdAt": "2026-04-24T10:29:13Z",
-      "pushedAt": "2026-09-05T13:33:17Z",
-      "likes": 0,
-      "rank": 25
-    },
-    {
-      "id": "sno-ai__mda",
-      "repo": "sno-ai/mda",
-      "name": "mda",
-      "description": "MDA Open Spec — a Markdown superset for agent-facing documents. One .mda source compiles to drop-in SKILL.md, AGENTS.md, MCP-SERVER.md, and CLAUDE.md. JSON Schema validated, with typed depe…",
-      "url": "https://github.com/sno-ai/mda",
-      "stars": 618,
-      "forks": 32,
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "agents-md",
-        "ai-agents",
-        "ai-native",
-        "claude-md",
-        "conformance",
-        "json-schema",
-        "llm"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agentic ai",
-        "agents md",
-        "ai agents"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/sno-ai/mda",
-      "coverHeight": 206,
-      "coverColor": "#345449",
-      "score": 92.8,
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "ai-native",
-        "claude",
-        "llm",
-        "mcp"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2025-04-14T03:39:05Z",
-      "pushedAt": "2026-05-26T04:37:44Z",
-      "likes": 0,
-      "rank": 26
+      "rank": 15
     },
     {
       "id": "agnosticui__agnosticui",
@@ -1152,47 +691,7 @@
       "createdAt": "2020-09-07T21:03:08Z",
       "pushedAt": "2026-06-30T19:42:00Z",
       "likes": 0,
-      "rank": 27
-    },
-    {
-      "id": "matrixorigin__matrixone",
-      "repo": "matrixorigin/matrixone",
-      "name": "matrixone",
-      "description": "AI-native HTAP database with Git-for-Data and built-in vector search, serving as the data and memory backbone for intelligent agents and applications.",
-      "url": "https://github.com/matrixorigin/matrixone",
-      "stars": 1890,
-      "forks": 311,
-      "language": "Go",
-      "topics": [
-        "agents",
-        "ai-native",
-        "cloud-native",
-        "database",
-        "distributed-database",
-        "distributed-systems",
-        "fulltext-support",
-        "git-for-data"
-      ],
-      "category": "Vibe Coding",
-      "tags": [
-        "Vibe Coding",
-        "agents",
-        "ai native",
-        "cloud native"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/matrixorigin/matrixone",
-      "coverHeight": 165,
-      "coverColor": "#214b4c",
-      "score": 89.7,
-      "aiSignals": [
-        "ai",
-        "ai-native"
-      ],
-      "sourceQuery": "ai-native",
-      "createdAt": "2021-02-18T09:07:17Z",
-      "pushedAt": "2026-09-16T01:50:04Z",
-      "likes": 0,
-      "rank": 28
+      "rank": 16
     },
     {
       "id": "vcmf__dim0",
@@ -1233,7 +732,7 @@
       "createdAt": "2026-03-20T19:42:54Z",
       "pushedAt": "2026-09-15T20:50:42Z",
       "likes": 0,
-      "rank": 29
+      "rank": 17
     },
     {
       "id": "molefrog__moi",
@@ -1271,7 +770,7 @@
       "createdAt": "2026-03-07T12:09:57Z",
       "pushedAt": "2026-09-15T09:18:52Z",
       "likes": 0,
-      "rank": 30
+      "rank": 18
     },
     {
       "id": "copilotkit__generative-ui",
@@ -1310,7 +809,7 @@
       "createdAt": "2026-01-08T14:15:31Z",
       "pushedAt": "2026-03-20T19:55:36Z",
       "likes": 0,
-      "rank": 31
+      "rank": 19
     }
   ]
 }

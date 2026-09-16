@@ -31,9 +31,8 @@ SEARCHES = [
     ("vibe-coding", "topic:vibe-coding"),
     ("vibe-phrase", '"vibe coding" in:name,description,readme'),
     ("generative-ui", "topic:generative-ui"),
-    ("ai-native", "topic:ai-native"),
-    ("ai-tool", "topic:ai-tool"),
 ]
+ALLOWED_SOURCE_QUERIES = {name for name, _ in SEARCHES}
 
 AI_TERMS = {
     "ai": 2,
@@ -239,6 +238,10 @@ def main() -> None:
     state = load_json(STATE_PATH, {"nextSearch": 0, "runs": 0})
     existing = payload.get("items") if isinstance(payload, dict) else []
     existing = existing if isinstance(existing, list) else []
+    existing = [
+        item for item in existing
+        if item.get("sourceQuery") in ALLOWED_SOURCE_QUERIES
+    ]
     existing = [
         item for item in existing
         if passes_quality_gate(
