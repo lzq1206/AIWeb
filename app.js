@@ -38,9 +38,6 @@ const els = {
   grid: document.querySelector("#project-grid"),
   empty: document.querySelector("#empty-state"),
   resultCount: document.querySelector("#result-count"),
-  projectCount: document.querySelector("#project-count"),
-  starCount: document.querySelector("#star-count"),
-  lastUpdated: document.querySelector("#last-updated"),
   favoriteCount: document.querySelector("#favorite-count"),
   search: document.querySelector("#search-input"),
   toast: document.querySelector("#toast"),
@@ -61,10 +58,8 @@ async function init() {
     if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
     const payload = await response.json();
     state.projects = Array.isArray(payload.items) ? payload.items : fallbackProjects;
-    updateOverview(payload);
   } catch (error) {
     state.projects = fallbackProjects;
-    updateOverview({ generatedAt: null, items: state.projects });
   }
 
   render();
@@ -217,13 +212,6 @@ function openComments(project) {
   script.setAttribute("theme", "github-dark");
   els.utterancesHost.appendChild(script);
   els.dialog.showModal();
-}
-
-function updateOverview(payload) {
-  const items = Array.isArray(payload.items) ? payload.items : [];
-  els.projectCount.textContent = formatNumber(items.length);
-  els.starCount.textContent = formatNumber(items.reduce((total, item) => total + Number(item.stars || 0), 0));
-  els.lastUpdated.textContent = payload.generatedAt ? formatDate(payload.generatedAt) : "刚刚";
 }
 
 function updateFavoriteCount() {
