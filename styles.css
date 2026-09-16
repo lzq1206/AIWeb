@@ -516,3 +516,275 @@ body[data-style="vista"] .toast { color: #15364b; }
   .era-switcher-title { display: none; }
   .era-option { padding: 8px; }
 }
+
+/* RetroWhisper Aero parity: the same sky/grass light field, specular edges,
+   physical glass depth, and glossy blue controls used by the reference site. */
+body[data-style="vista"] {
+  position: relative;
+  isolation: isolate;
+  --bg: #8bd3f1;
+  --bg-soft: rgba(255, 255, 255, .34);
+  --panel: rgba(255, 255, 255, .34);
+  --panel-strong: rgba(255, 255, 255, .64);
+  --line: rgba(255, 255, 255, .78);
+  --line-strong: #0a73be;
+  --text: #123956;
+  --muted: #245770;
+  --muted-strong: #244b62;
+  --accent: #0a73be;
+  --accent-hot: #5a9f36;
+  --cyan: #47a9c9;
+  --shadow: rgba(15, 63, 101, .35);
+  --radius-xl: 18px;
+  --radius-lg: 18px;
+  --radius-md: 18px;
+  min-height: 100vh;
+  background-color: #8bd3f1;
+  background-image: linear-gradient(to bottom, #6fc7ee 0%, #e4faff 38%, #b6e9e6 52%, #84cf91 67%, #2f8374 100%);
+  background-attachment: fixed;
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body[data-style="vista"]::before,
+body[data-style="vista"]::after {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+}
+
+body[data-style="vista"]::before {
+  z-index: -1;
+  opacity: 1;
+  filter: none;
+  background: radial-gradient(ellipse at 12% 18%, rgba(255, 255, 255, .78) 0 7%, transparent 21%), radial-gradient(ellipse at 78% 14%, rgba(255, 255, 255, .58) 0 6%, transparent 18%), radial-gradient(circle at 78% 25%, rgba(255, 255, 226, .92) 0 2%, transparent 10%), radial-gradient(ellipse at 30% 78%, rgba(255, 255, 255, .25) 0 12%, transparent 28%);
+  mix-blend-mode: screen;
+}
+
+body[data-style="vista"]::after {
+  z-index: -1;
+  opacity: .34;
+  background-image: radial-gradient(circle at 20% 61%, rgba(255, 255, 255, .72) 0 2px, transparent 3px), radial-gradient(circle at 83% 54%, rgba(255, 255, 255, .62) 0 3px, transparent 4px), radial-gradient(circle at 44% 84%, rgba(255, 255, 255, .3) 0 2px, transparent 4px);
+  background-size: 180px 150px, 240px 180px, 140px 120px;
+}
+
+body[data-style="vista"] .topbar {
+  min-height: 72px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, .82);
+  border-top-color: #fff;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .86) 0%, rgba(220, 246, 255, .6) 44%, rgba(84, 154, 192, .42) 100%);
+  box-shadow: 0 12px 22px var(--shadow), inset 0 1px 0 #fff, inset 0 -4px 10px rgba(34, 111, 157, .22);
+  backdrop-filter: blur(15px) saturate(1.35);
+}
+
+body[data-style="vista"] .brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, .88);
+  border-radius: 12px;
+  background: linear-gradient(145deg, #c6ffff 0%, #62d9ee 47%, #167fc0 53%, #70bfea 100%);
+  color: #064979;
+  box-shadow: 0 6px 12px rgba(18, 91, 132, .32), inset 0 1px 1px #fff, inset 0 -4px 6px rgba(10, 86, 139, .28);
+  text-shadow: 0 1px #fff;
+  filter: none;
+}
+
+body[data-style="vista"] .topbar-note,
+body[data-style="vista"] .topnav,
+body[data-style="vista"] .github-link,
+body[data-style="vista"] .era-switcher-title,
+body[data-style="vista"] .era-option,
+body[data-style="vista"] .card-description,
+body[data-style="vista"] .card-meta,
+body[data-style="vista"] .site-footer,
+body[data-style="vista"] .site-footer > div {
+  color: #245770;
+}
+
+body[data-style="vista"] .topnav .active::after {
+  background: #0a73be;
+  box-shadow: 0 0 10px rgba(10, 115, 190, .45);
+}
+
+body[data-style="vista"] .live-dot {
+  background: #43a3b9;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, .3), 0 0 14px rgba(49, 172, 190, .8);
+}
+
+body[data-style="vista"] .project-card,
+body[data-style="vista"] .search-box,
+body[data-style="vista"] .sort-buttons,
+body[data-style="vista"] .era-switcher,
+body[data-style="vista"] .empty-state,
+body[data-style="vista"] .toast {
+  border: 1px solid rgba(255, 255, 255, .86);
+  border-top-color: #fff;
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, .64) 0%, rgba(255, 255, 255, .34) 42%, rgba(80, 157, 192, .34) 100%);
+  box-shadow: 0 18px 36px var(--shadow), inset 0 1px 0 rgba(255, 255, 255, .96), inset 0 -14px 24px rgba(37, 111, 161, .15);
+  backdrop-filter: blur(18px) saturate(1.4);
+}
+
+body[data-style="vista"] .project-card {
+  position: relative;
+}
+
+body[data-style="vista"] .project-card::before {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  left: 12px;
+  z-index: 4;
+  height: 2px;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .98) 20% 80%, transparent);
+  pointer-events: none;
+}
+
+body[data-style="vista"] .project-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(139, 244, 219, .7);
+  box-shadow: 0 24px 45px var(--shadow), 0 0 24px rgba(139, 244, 219, .11), inset 0 1px 0 rgba(255, 255, 255, .3);
+}
+
+body[data-style="vista"] .intro h1,
+body[data-style="vista"] .control-heading h2,
+body[data-style="vista"] .card-title {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .92), 0 0 18px rgba(255, 255, 255, .42);
+}
+
+body[data-style="vista"] .section-kicker,
+body[data-style="vista"] .result-count {
+  color: #0a73be;
+  text-shadow: 0 1px #fff;
+}
+
+body[data-style="vista"] .search-box,
+body[data-style="vista"] .sort-buttons {
+  background: linear-gradient(180deg, rgba(255, 255, 255, .58), rgba(110, 189, 220, .2));
+  box-shadow: inset 0 1px rgba(255, 255, 255, .76), 0 4px 8px rgba(28, 100, 137, .24);
+}
+
+body[data-style="vista"] .search-box:focus-within {
+  border-color: #0a73be;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .78), rgba(110, 189, 220, .3));
+  box-shadow: inset 0 1px #fff, inset 0 -4px 8px rgba(25, 104, 155, .2), 0 5px 10px rgba(28, 100, 137, .28);
+}
+
+body[data-style="vista"] .search-icon,
+body[data-style="vista"] .search-box,
+body[data-style="vista"] .sort-button,
+body[data-style="vista"] .tag-filter,
+body[data-style="vista"] .github-link,
+body[data-style="vista"] .action-button,
+body[data-style="vista"] .ghost-button,
+body[data-style="vista"] .era-option,
+body[data-style="vista"] kbd {
+  border: 1px solid rgba(255, 255, 255, .78);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .58), rgba(110, 189, 220, .2));
+  box-shadow: inset 0 1px rgba(255, 255, 255, .76), 0 4px 8px rgba(28, 100, 137, .24);
+}
+
+body[data-style="vista"] .search-icon {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: #0a73be;
+}
+
+body[data-style="vista"] .search-box input,
+body[data-style="vista"] .sort-button,
+body[data-style="vista"] .tag-filter,
+body[data-style="vista"] .action-button,
+body[data-style="vista"] .ghost-button,
+body[data-style="vista"] .era-option,
+body[data-style="vista"] .github-link {
+  color: #245770;
+}
+
+body[data-style="vista"] .sort-button:hover,
+body[data-style="vista"] .tag-filter:hover,
+body[data-style="vista"] .github-link:hover,
+body[data-style="vista"] .action-button:hover,
+body[data-style="vista"] .ghost-button:hover,
+body[data-style="vista"] .era-option:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, .98);
+  color: #075482;
+  box-shadow: inset 0 1px #fff, 0 7px 13px rgba(28, 100, 137, .3);
+}
+
+body[data-style="vista"] .era-option.is-selected,
+body[data-style="vista"] .sort-button.active,
+body[data-style="vista"] .tag-filter.active,
+body[data-style="vista"] .action-button.is-saved,
+body[data-style="vista"] .ghost-button:active {
+  border-color: #0a73be;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .8), rgba(87, 190, 226, .45) 47%, rgba(28, 122, 180, .42) 52%, rgba(255, 255, 255, .34));
+  color: #075482;
+  box-shadow: inset 0 1px #fff, inset 0 -4px 8px rgba(25, 104, 155, .2), 0 5px 10px rgba(28, 100, 137, .28);
+}
+
+body[data-style="vista"] .era-option.is-selected:hover,
+body[data-style="vista"] .sort-button.active:hover,
+body[data-style="vista"] .tag-filter.active:hover,
+body[data-style="vista"] .action-button.is-saved:hover {
+  box-shadow: inset 0 1px #fff, inset 0 -4px 8px rgba(25, 104, 155, .2), 0 8px 14px rgba(28, 100, 137, .36);
+}
+
+body[data-style="vista"] .project-cover {
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(145deg, #dffaff, #7fc5dc 50%, #65ad87);
+}
+
+body[data-style="vista"] .project-cover::after {
+  background: linear-gradient(180deg, rgba(12, 78, 110, .02) 12%, rgba(15, 78, 104, .67) 100%);
+}
+
+body[data-style="vista"] .project-cover img {
+  opacity: .86;
+  filter: saturate(1.18) contrast(1.02);
+}
+
+body[data-style="vista"] .signal-badge,
+body[data-style="vista"] .card-tag {
+  border: 1px solid rgba(255, 255, 255, .78);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .7), rgba(95, 190, 219, .22));
+  color: #0a6b9f;
+  box-shadow: inset 0 1px #fff, 0 2px 5px rgba(28, 100, 137, .22);
+}
+
+body[data-style="vista"] .signal-badge::before {
+  background: #d6ff98;
+  box-shadow: 0 0 8px #fff;
+}
+
+body[data-style="vista"] .score-mark {
+  color: #fff;
+  text-shadow: 0 1px 5px rgba(18, 80, 106, .76);
+}
+
+body[data-style="vista"] .card-title a:hover {
+  color: #5a9f36;
+}
+
+body[data-style="vista"] .card-meta {
+  border-top-color: rgba(255, 255, 255, .62);
+}
+
+body[data-style="vista"] .language-dot {
+  background: #43a3b9;
+  box-shadow: 0 0 8px rgba(67, 163, 185, .6);
+}
+
+body[data-style="vista"] .toast {
+  color: #123956;
+}
