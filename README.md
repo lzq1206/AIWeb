@@ -10,7 +10,7 @@
 - 评论：通过 Utterances 写入本仓库的 GitHub Issues，不需要把 Token 暴露给前端
 - GitHub Actions 每天抓取两组搜索信号，每次最多新增 12 个项目
 - 请求之间有节流、重试和退避逻辑，避免短时间大量请求触发 GitHub 限流
-- GitHub Pages 自动部署
+- GitHub Pages 自动部署：抓取 workflow 在同一次运行内完成数据提交和 Pages 发布
 
 ## 数据规则
 
@@ -27,4 +27,3 @@ python -m http.server 4173
 ```
 
 然后访问 <http://localhost:4173>。直接双击 `index.html` 时，浏览器会拦截 `data/projects.json` 的读取，因此建议使用静态服务器。
-
