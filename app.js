@@ -1,5 +1,6 @@
 const DATA_URL = "data/projects.json";
 const STORAGE_KEY = "aiweb-vibe-radar-v1";
+const STYLE_STORAGE_KEY = "aiweb-style-v1";
 
 const fallbackProjects = [
   {
@@ -29,6 +30,7 @@ const state = {
   sort: "hot",
   search: "",
   favoritesOnly: false,
+  style: loadStyle(),
   user: loadUserState(),
 };
 
@@ -44,6 +46,7 @@ const els = {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+  setStyle(state.style);
   bindEvents();
   updateFavoriteCount();
 
@@ -60,6 +63,10 @@ async function init() {
 }
 
 function bindEvents() {
+  document.querySelectorAll("[data-style-option]").forEach((button) => {
+    button.addEventListener("click", () => setStyle(button.dataset.styleOption));
+  });
+
   els.search.addEventListener("input", (event) => {
     state.search = event.target.value.trim().toLowerCase();
     render();
@@ -107,6 +114,21 @@ function bindEvents() {
       els.search.focus();
     }
   });
+}
+
+function setStyle(style) {
+  const nextStyle = ["pixel", "win98", "vista"].includes(style) ? style : "win98";
+  state.style = nextStyle;
+  document.documentElement.dataset.style = nextStyle;
+  document.body.dataset.style = nextStyle;
+  document.querySelectorAll("[data-style-option]").forEach((button) => {
+    const selected = button.dataset.styleOption === nextStyle;
+    button.classList.toggle("is-selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
+  });
+  const themeColor = nextStyle === "win98" ? "#008080" : nextStyle === "vista" ? "#bdeeff" : "#12162e";
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", themeColor);
+  try { localStorage.setItem(STYLE_STORAGE_KEY, nextStyle); } catch (_) { /* Private browsing can disable storage. */ }
 }
 
 function render() {
@@ -197,6 +219,14 @@ function loadUserState() {
     return { favorites: raw.favorites || {} };
   } catch (_) {
     return { favorites: {} };
+  }
+}
+
+function loadStyle() {
+  try {
+    return localStorage.getItem(STYLE_STORAGE_KEY) || "win98";
+  } catch (_) {
+    return "win98";
   }
 }
 

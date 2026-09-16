@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-style="win98">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#081018" />
+    <meta name="theme-color" content="#008080" />
     <meta name="description" content="AIWeb：发现 GitHub 上值得打开的开源小项目。" />
     <title>AIWeb · Vibe Radar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
   </head>
-  <body>
+  <body data-style="win98">
     <div class="app-shell">
       <header class="topbar">
         <a class="brand" href="./" aria-label="AIWeb 首页">
@@ -26,6 +26,24 @@
         </nav>
         <a class="github-link" href="https://github.com/lzq1206/AIWeb" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </header>
+
+      <aside class="era-switcher" aria-label="切换时代">
+        <span class="era-switcher-title">切换时代</span>
+        <div class="era-options">
+          <button class="era-option" type="button" data-style-option="pixel" aria-pressed="false" aria-label="像素终端 1980s" title="像素终端 1980s">
+            <span class="era-swatch swatch-pixel" aria-hidden="true"></span>
+            <span>像素</span>
+          </button>
+          <button class="era-option is-selected" type="button" data-style-option="win98" aria-pressed="true" aria-label="Win 98 1990s" title="Win 98 1990s">
+            <span class="era-swatch swatch-win98" aria-hidden="true"></span>
+            <span>Win 98</span>
+          </button>
+          <button class="era-option" type="button" data-style-option="vista" aria-pressed="false" aria-label="Vista 玻璃 2000s" title="Vista 玻璃 2000s">
+            <span class="era-swatch swatch-vista" aria-hidden="true"></span>
+            <span>Aero</span>
+          </button>
+        </div>
+      </aside>
 
       <main id="feed">
         <section class="intro" aria-labelledby="page-title">
