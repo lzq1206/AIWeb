@@ -1,8 +1,88 @@
 {
-  "nextSearch": 4,
-  "runs": 10,
-  "lastRun": "2026-09-16T23:39:05.170164Z",
+  "nextSearch": 0,
+  "runs": 11,
+  "lastRun": "2026-09-17T04:52:01.757998Z",
   "starHistory": {
+    "copilotkit/openbot": {
+      "stars": 5027,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "miurla/morphic": {
+      "stars": 9123,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "marvkr/better-design": {
+      "stars": 235,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "vcmf/dim0": {
+      "stars": 141,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "molefrog/moi": {
+      "stars": 168,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "dyoshikawa/rulesync": {
+      "stars": 1428,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "mobilereality/mdma": {
+      "stars": 67,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "bearlike/assistant": {
+      "stars": 42,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "pengyue-polaron/deepseek-harness-genui": {
+      "stars": 111,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "ggui-ai/ggui": {
+      "stars": 40,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "ryoitabashi/shelly": {
+      "stars": 63,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "sandeshnaroju/ai-skill-engine": {
+      "stars": 17,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "mustbesimo/web-design-studio": {
+      "stars": 36,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "mirafold/mirafold": {
+      "stars": 15,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "inneraura/hyperweave": {
+      "stars": 43,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "tninja/ai-code-interface.el": {
+      "stars": 281,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "footprintai/containarium": {
+      "stars": 281,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "receptron/mulmoterminal": {
+      "stars": 217,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "xu123-bob/baize": {
+      "stars": 71,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
+    "simonlin1212/sdesign": {
+      "stars": 34,
+      "observedAt": "2026-09-17T04:51:58.693811Z"
+    },
     "onlook-dev/onlook": {
       "stars": 26746,
       "observedAt": "2026-09-16T23:39:02.308069Z"
@@ -147,72 +227,12 @@
       "stars": 122,
       "observedAt": "2026-09-16T18:54:19.801142Z"
     },
-    "copilotkit/openbot": {
-      "stars": 4986,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "miurla/morphic": {
-      "stars": 9123,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "marvkr/better-design": {
-      "stars": 234,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "vcmf/dim0": {
-      "stars": 140,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "molefrog/moi": {
-      "stars": 166,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "dyoshikawa/rulesync": {
-      "stars": 1427,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
     "digipulse-engineering/gaai-framework": {
       "stars": 161,
       "observedAt": "2026-09-16T14:12:06.841087Z"
     },
-    "mobilereality/mdma": {
-      "stars": 67,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "bearlike/assistant": {
-      "stars": 42,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "pengyue-polaron/deepseek-harness-genui": {
-      "stars": 110,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "ggui-ai/ggui": {
-      "stars": 40,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "ryoitabashi/shelly": {
-      "stars": 63,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "sandeshnaroju/ai-skill-engine": {
-      "stars": 17,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "mustbesimo/web-design-studio": {
-      "stars": 36,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
     "iblai/vibe": {
       "stars": 15,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "mirafold/mirafold": {
-      "stars": 15,
-      "observedAt": "2026-09-16T14:12:06.841087Z"
-    },
-    "inneraura/hyperweave": {
-      "stars": 43,
       "observedAt": "2026-09-16T14:12:06.841087Z"
     },
     "agents-ui/agents-kit": {
