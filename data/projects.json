@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-05T14:36:52.503393Z",
+  "generatedAt": "2026-10-05T22:00:52.181581Z",
   "batch": {
     "size": 20,
     "queries": [
-      "vibe-phrase-rising",
-      "generative-ui-rising"
+      "vibecoding-hot",
+      "vibecoding-rising"
     ],
     "modes": [
-      "updated",
+      "stars",
       "updated"
     ],
     "window": "pushed since 2026-04-08"
@@ -68,8 +68,8 @@
       "name": "taste-skill",
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "url": "https://github.com/Leonxlnx/taste-skill",
-      "stars": 92598,
-      "forks": 6280,
+      "stars": 92832,
+      "forks": 6298,
       "language": "JavaScript",
       "topics": [
         "agent",
@@ -104,8 +104,8 @@
       "pushedAt": "2026-09-26T09:01:50Z",
       "likes": 0,
       "rank": 2,
-      "starsDelta": 217,
-      "starsPerDay": 287.9,
+      "starsDelta": 234,
+      "starsPerDay": 254.5,
       "trendLabel": "rising",
       "searchMode": "stars"
     },
@@ -341,53 +341,54 @@
       "searchMode": "updated"
     },
     {
-      "id": "zseven-w__openpencil",
-      "repo": "ZSeven-W/openpencil",
-      "name": "openpencil",
-      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern altern…",
-      "url": "https://github.com/ZSeven-W/openpencil",
-      "stars": 6076,
-      "forks": 527,
-      "language": "Rust",
+      "id": "foryourhealth111-pixel__vibe-skills",
+      "repo": "foryourhealth111-pixel/Vibe-Skills",
+      "name": "Vibe-Skills",
+      "description": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
+      "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+      "stars": 3572,
+      "forks": 314,
+      "language": "Python",
       "topics": [
-        "agent",
-        "agent-team",
-        "ai",
-        "claude",
-        "claude-code",
-        "codex",
-        "dsh-plugin",
-        "fimga"
+        "agent-framework",
+        "agent-skills",
+        "agentic-coding",
+        "ai-agents",
+        "ai-scientist",
+        "ai-skills",
+        "ai-workflow",
+        "automation"
       ],
-      "category": "UI / Design",
+      "category": "Agent",
       "tags": [
-        "UI / Design",
-        "agent",
-        "agent team",
-        "AI"
+        "Agent",
+        "agent framework",
+        "agent skills",
+        "agentic coding"
       ],
-      "thumbnail": "https://opengraph.githubassets.com/1/ZSeven-W/openpencil",
-      "coverHeight": 234,
+      "thumbnail": "https://opengraph.githubassets.com/1/foryourhealth111-pixel/Vibe-Skills",
+      "coverHeight": 225,
       "coverColor": "#214b4c",
-      "score": 139.4,
+      "score": 145.6,
+      "starsDelta": 16,
+      "starsPerDay": 23.5,
+      "trendLabel": "rising",
       "aiSignals": [
         "agent",
+        "agentic",
         "ai",
-        "ai-native",
         "claude",
         "codex",
-        "mcp",
-        "vibecoding"
+        "llm",
+        "prompt",
+        "vibe"
       ],
       "sourceQuery": "vibecoding-hot",
-      "createdAt": "2026-02-17T10:51:46Z",
-      "pushedAt": "2026-10-04T19:56:49Z",
+      "searchMode": "stars",
+      "createdAt": "2026-02-22T13:51:44Z",
+      "pushedAt": "2026-08-31T13:52:09Z",
       "likes": 0,
-      "rank": 8,
-      "starsDelta": 3,
-      "starsPerDay": 4.0,
-      "trendLabel": "rising",
-      "searchMode": "stars"
+      "rank": 8
     },
     {
       "id": "nexu-io__html-anything",
@@ -438,56 +439,6 @@
       "rank": 9
     },
     {
-      "id": "foryourhealth111-pixel__vibe-skills",
-      "repo": "foryourhealth111-pixel/Vibe-Skills",
-      "name": "Vibe-Skills",
-      "description": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
-      "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
-      "stars": 3556,
-      "forks": 313,
-      "language": "Python",
-      "topics": [
-        "agent-framework",
-        "agent-skills",
-        "agentic-coding",
-        "ai-agents",
-        "ai-scientist",
-        "ai-skills",
-        "ai-workflow",
-        "automation"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agent framework",
-        "agent skills",
-        "agentic coding"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/foryourhealth111-pixel/Vibe-Skills",
-      "coverHeight": 225,
-      "coverColor": "#214b4c",
-      "score": 137.8,
-      "starsDelta": 2,
-      "starsPerDay": 8.4,
-      "trendLabel": "rising",
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "claude",
-        "codex",
-        "llm",
-        "prompt",
-        "vibe"
-      ],
-      "sourceQuery": "vibe-coding-hot",
-      "searchMode": "stars",
-      "createdAt": "2026-02-22T13:51:44Z",
-      "pushedAt": "2026-08-31T13:52:09Z",
-      "likes": 0,
-      "rank": 10
-    },
-    {
       "id": "zhnt__loushang",
       "repo": "zhnt/loushang",
       "name": "loushang",
@@ -535,7 +486,7 @@
       "createdAt": "2026-05-29T17:25:11Z",
       "pushedAt": "2026-10-04T11:56:11Z",
       "likes": 0,
-      "rank": 11
+      "rank": 10
     },
     {
       "id": "sylinko__everywhere",
@@ -584,7 +535,56 @@
       "createdAt": "2025-04-23T08:19:33Z",
       "pushedAt": "2026-10-01T18:15:50Z",
       "likes": 0,
-      "rank": 12
+      "rank": 11
+    },
+    {
+      "id": "zseven-w__openpencil",
+      "repo": "ZSeven-W/openpencil",
+      "name": "openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern altern…",
+      "url": "https://github.com/ZSeven-W/openpencil",
+      "stars": 6078,
+      "forks": 527,
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "agent-team",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "dsh-plugin",
+        "fimga"
+      ],
+      "category": "UI / Design",
+      "tags": [
+        "UI / Design",
+        "agent",
+        "agent team",
+        "AI"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/ZSeven-W/openpencil",
+      "coverHeight": 234,
+      "coverColor": "#214b4c",
+      "score": 135.7,
+      "aiSignals": [
+        "agent",
+        "ai",
+        "ai-native",
+        "claude",
+        "codex",
+        "mcp",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "createdAt": "2026-02-17T10:51:46Z",
+      "pushedAt": "2026-10-05T18:23:59Z",
+      "likes": 0,
+      "rank": 12,
+      "starsDelta": 2,
+      "starsPerDay": 2.2,
+      "trendLabel": "rising",
+      "searchMode": "stars"
     },
     {
       "id": "onlook-dev__onlook",
@@ -593,7 +593,7 @@
       "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for D…",
       "url": "https://github.com/onlook-dev/onlook",
       "stars": 26858,
-      "forks": 2117,
+      "forks": 2115,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -615,7 +615,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
       "coverHeight": 194,
       "coverColor": "#345449",
-      "score": 134.6,
+      "score": 134.5,
       "aiSignals": [
         "agent",
         "ai",
@@ -625,7 +625,7 @@
         "vibe",
         "vibecoding"
       ],
-      "sourceQuery": "vibe-coding-hot",
+      "sourceQuery": "vibecoding-hot",
       "createdAt": "2024-06-25T19:16:02Z",
       "pushedAt": "2026-08-25T01:06:22Z",
       "likes": 0,
@@ -671,6 +671,55 @@
       "pushedAt": "2026-10-02T17:15:50Z",
       "likes": 0,
       "rank": 14
+    },
+    {
+      "id": "the-open-engine__zeroshot",
+      "repo": "the-open-engine/zeroshot",
+      "name": "zeroshot",
+      "description": "Runs coding agents as a graph: one agent implements, independent agents review, failures go to repair, and nothing ships until the checks pass. Works with Codex, Claude Code and Copilot.",
+      "url": "https://github.com/the-open-engine/zeroshot",
+      "stars": 1922,
+      "forks": 180,
+      "language": "Rust",
+      "topics": [
+        "agent-loops",
+        "agent-orchestration",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-agents",
+        "autonomous-agents",
+        "claude",
+        "claude-code"
+      ],
+      "category": "Agent",
+      "tags": [
+        "Agent",
+        "agent loops",
+        "agent orchestration",
+        "agentic workflow"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/the-open-engine/zeroshot",
+      "coverHeight": 202,
+      "coverColor": "#3f345f",
+      "score": 129.1,
+      "starsDelta": 3,
+      "starsPerDay": 3.3,
+      "trendLabel": "rising",
+      "aiSignals": [
+        "agent",
+        "agentic",
+        "ai",
+        "claude",
+        "codex",
+        "copilot",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "searchMode": "stars",
+      "createdAt": "2025-12-25T17:12:45Z",
+      "pushedAt": "2026-10-05T20:11:49Z",
+      "likes": 0,
+      "rank": 15
     },
     {
       "id": "agent-of-empires__agent-of-empires",
@@ -719,55 +768,6 @@
       "searchMode": "stars",
       "createdAt": "2026-01-09T17:23:31Z",
       "pushedAt": "2026-10-04T19:58:24Z",
-      "likes": 0,
-      "rank": 15
-    },
-    {
-      "id": "spec-kitty__spec-kitty",
-      "repo": "spec-kitty/spec-kitty",
-      "name": "spec-kitty",
-      "description": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent eng…",
-      "url": "https://github.com/spec-kitty/spec-kitty",
-      "stars": 1664,
-      "forks": 176,
-      "language": "Python",
-      "topics": [
-        "agentic-coding",
-        "ai-agents",
-        "ai-coding-workflow",
-        "ai-development-dashboard",
-        "ai-progress-tracking",
-        "ai-workflow",
-        "claude-code",
-        "code-workflow"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agentic coding",
-        "ai agents",
-        "ai coding workflow"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/spec-kitty/spec-kitty",
-      "coverHeight": 242,
-      "coverColor": "#345449",
-      "score": 126.8,
-      "starsDelta": 1,
-      "starsPerDay": 2.7,
-      "trendLabel": "rising",
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "claude",
-        "copilot",
-        "gemini",
-        "vibe"
-      ],
-      "sourceQuery": "vibe-phrase-rising",
-      "searchMode": "updated",
-      "createdAt": "2025-10-09T12:29:47Z",
-      "pushedAt": "2026-10-05T14:10:03Z",
       "likes": 0,
       "rank": 16
     },
@@ -962,7 +962,7 @@
       "name": "gin-vue-admin",
       "description": "🚀Vite+Vue3+Gin拥有AI辅助的基础开发平台，企业级业务AI+开发解决方案，内置mcp辅助服务，内置skills管理，支持TS和JS混用。它集成了JWT鉴权、权限管理、动态路由、显隐可控组件、分页封装、多点登录拦截、资源权限、上传下载、代码生成器、表单生成器和可配置的导入导出等开发必备功能。",
       "url": "https://github.com/flipped-aurora/gin-vue-admin",
-      "stars": 25057,
+      "stars": 25056,
       "forks": 7115,
       "language": "Go",
       "topics": [
@@ -985,7 +985,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/flipped-aurora/gin-vue-admin",
       "coverHeight": 171,
       "coverColor": "#214b4c",
-      "score": 122.1,
+      "score": 122.0,
       "aiSignals": [
         "ai",
         "mcp",
@@ -1002,48 +1002,50 @@
       "searchMode": "stars"
     },
     {
-      "id": "hanshuaikang__nezha",
-      "repo": "hanshuaikang/nezha",
-      "name": "nezha",
-      "description": "Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine.",
-      "url": "https://github.com/hanshuaikang/nezha",
-      "stars": 1903,
-      "forks": 181,
+      "id": "zgsm-ai__costrict",
+      "repo": "zgsm-ai/costrict",
+      "name": "costrict",
+      "description": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion.",
+      "url": "https://github.com/zgsm-ai/costrict",
+      "stars": 4443,
+      "forks": 204,
       "language": "TypeScript",
       "topics": [
+        "agent",
         "ai",
-        "claude-code",
-        "codex",
-        "cursor",
-        "ide",
-        "vibe-coding",
-        "vibecoding"
+        "aicoding",
+        "claude",
+        "cline",
+        "cloud",
+        "coding",
+        "deepseek"
       ],
       "category": "Agent",
       "tags": [
         "Agent",
         "AI",
-        "claude code",
-        "codex"
+        "aicoding",
+        "claude"
       ],
-      "thumbnail": "https://opengraph.githubassets.com/1/hanshuaikang/nezha",
-      "coverHeight": 213,
-      "coverColor": "#214b4c",
-      "score": 121.3,
-      "starsDelta": 1,
-      "starsPerDay": 4.2,
-      "trendLabel": "rising",
+      "thumbnail": "https://opengraph.githubassets.com/1/zgsm-ai/costrict",
+      "coverHeight": 174,
+      "coverColor": "#244867",
+      "score": 121.2,
+      "starsDelta": 0,
+      "starsPerDay": 0.0,
+      "trendLabel": "hot",
       "aiSignals": [
+        "agent",
         "ai",
         "claude",
-        "codex",
-        "vibe",
+        "deepseek",
+        "gemini",
         "vibecoding"
       ],
-      "sourceQuery": "vibe-coding-hot",
+      "sourceQuery": "vibecoding-hot",
       "searchMode": "stars",
-      "createdAt": "2026-03-22T15:13:11Z",
-      "pushedAt": "2026-09-17T15:32:45Z",
+      "createdAt": "2025-04-10T02:06:51Z",
+      "pushedAt": "2026-09-30T09:24:54Z",
       "likes": 0,
       "rank": 22
     },
@@ -1276,51 +1278,49 @@
       "rank": 27
     },
     {
-      "id": "the-open-engine__zeroshot",
-      "repo": "the-open-engine/zeroshot",
-      "name": "zeroshot",
-      "description": "Runs coding agents as a graph: one agent implements, independent agents review, failures go to repair, and nothing ships until the checks pass. Works with Codex, Claude Code and Copilot.",
-      "url": "https://github.com/the-open-engine/zeroshot",
-      "stars": 1919,
-      "forks": 180,
-      "language": "Rust",
+      "id": "jetbrains__thinkrail",
+      "repo": "JetBrains/thinkrail",
+      "name": "thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE - The Vibe You Need",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "stars": 510,
+      "forks": 41,
+      "language": "TypeScript",
       "topics": [
-        "agent-loops",
-        "agent-orchestration",
+        "agent",
+        "agent-skills",
+        "agentic-ai",
         "agentic-workflow",
-        "ai-agent",
-        "ai-agents",
-        "autonomous-agents",
-        "claude",
-        "claude-code"
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension"
       ],
       "category": "Agent",
       "tags": [
         "Agent",
-        "agent loops",
-        "agent orchestration",
+        "agent skills",
+        "agentic ai",
         "agentic workflow"
       ],
-      "thumbnail": "https://opengraph.githubassets.com/1/the-open-engine/zeroshot",
-      "coverHeight": 202,
+      "thumbnail": "https://opengraph.githubassets.com/1/JetBrains/thinkrail",
+      "coverHeight": 196,
       "coverColor": "#3f345f",
-      "score": 117.1,
-      "starsDelta": 0,
-      "starsPerDay": 0.0,
-      "trendLabel": "hot",
+      "score": 115.4,
+      "starsDelta": 2,
+      "starsPerDay": 6.5,
+      "trendLabel": "rising",
       "aiSignals": [
         "agent",
         "agentic",
         "ai",
-        "claude",
-        "codex",
-        "copilot",
+        "vibe",
         "vibecoding"
       ],
       "sourceQuery": "vibecoding-hot",
       "searchMode": "stars",
-      "createdAt": "2025-12-25T17:12:45Z",
-      "pushedAt": "2026-10-04T23:54:19Z",
+      "createdAt": "2026-07-08T07:40:43Z",
+      "pushedAt": "2026-10-05T21:57:51Z",
       "likes": 0,
       "rank": 28
     },
@@ -1626,7 +1626,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/chaterm/Chaterm",
       "coverHeight": 236,
       "coverColor": "#345449",
-      "score": 108.5,
+      "score": 108.4,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -1694,12 +1694,58 @@
       "rank": 36
     },
     {
+      "id": "hanshuaikang__nezha",
+      "repo": "hanshuaikang/nezha",
+      "name": "nezha",
+      "description": "Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine.",
+      "url": "https://github.com/hanshuaikang/nezha",
+      "stars": 1902,
+      "forks": 181,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "cursor",
+        "ide",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "category": "Agent",
+      "tags": [
+        "Agent",
+        "AI",
+        "claude code",
+        "codex"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/hanshuaikang/nezha",
+      "coverHeight": 213,
+      "coverColor": "#214b4c",
+      "score": 107.6,
+      "starsDelta": 0,
+      "starsPerDay": 0.0,
+      "trendLabel": "hot",
+      "aiSignals": [
+        "ai",
+        "claude",
+        "codex",
+        "vibe",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "searchMode": "stars",
+      "createdAt": "2026-03-22T15:13:11Z",
+      "pushedAt": "2026-09-17T15:32:45Z",
+      "likes": 0,
+      "rank": 37
+    },
+    {
       "id": "withkynam__vibecode-pro-max-kit",
       "repo": "withkynam/vibecode-pro-max-kit",
       "name": "vibecode-pro-max-kit",
       "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal,…",
       "url": "https://github.com/withkynam/vibecode-pro-max-kit",
-      "stars": 1144,
+      "stars": 1143,
       "forks": 234,
       "language": "JavaScript",
       "topics": [
@@ -1722,7 +1768,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/withkynam/vibecode-pro-max-kit",
       "coverHeight": 192,
       "coverColor": "#214b4c",
-      "score": 105.0,
+      "score": 104.9,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -1741,7 +1787,7 @@
       "createdAt": "2026-05-27T05:46:25Z",
       "pushedAt": "2026-06-21T08:31:44Z",
       "likes": 0,
-      "rank": 37
+      "rank": 38
     },
     {
       "id": "silexlabs__silex",
@@ -1784,7 +1830,7 @@
       "createdAt": "2013-09-29T10:22:10Z",
       "pushedAt": "2026-10-04T18:19:21Z",
       "likes": 0,
-      "rank": 38
+      "rank": 39
     },
     {
       "id": "zseven-w__rish-app",
@@ -1833,7 +1879,7 @@
       "createdAt": "2026-08-25T16:27:20Z",
       "pushedAt": "2026-09-29T17:26:04Z",
       "likes": 0,
-      "rank": 39
+      "rank": 40
     },
     {
       "id": "swanhubx__swanlab",
@@ -1877,7 +1923,7 @@
       "createdAt": "2023-11-24T08:54:45Z",
       "pushedAt": "2026-09-20T09:52:25Z",
       "likes": 0,
-      "rank": 40
+      "rank": 41
     },
     {
       "id": "aerovato__container",
@@ -1926,50 +1972,6 @@
       "searchMode": "stars",
       "createdAt": "2026-01-08T14:50:55Z",
       "pushedAt": "2026-09-29T08:55:15Z",
-      "likes": 0,
-      "rank": 41
-    },
-    {
-      "id": "mohi-devhub__antivibe",
-      "repo": "mohi-devhub/antivibe",
-      "name": "antivibe",
-      "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
-      "url": "https://github.com/mohi-devhub/antivibe",
-      "stars": 1118,
-      "forks": 79,
-      "language": "Shell",
-      "topics": [
-        "ai",
-        "claude-code",
-        "claude-code-skill",
-        "code-explanation",
-        "education",
-        "learning",
-        "vibecoding"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "AI",
-        "claude code",
-        "claude code skill"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/mohi-devhub/antivibe",
-      "coverHeight": 244,
-      "coverColor": "#3f345f",
-      "score": 102.4,
-      "starsDelta": 1,
-      "starsPerDay": 1.8,
-      "trendLabel": "rising",
-      "aiSignals": [
-        "ai",
-        "claude",
-        "vibecoding"
-      ],
-      "sourceQuery": "vibecoding-hot",
-      "searchMode": "stars",
-      "createdAt": "2026-04-10T18:07:20Z",
-      "pushedAt": "2026-07-31T10:26:47Z",
       "likes": 0,
       "rank": 42
     },
@@ -2145,7 +2147,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/WILLOSCAR/research-units-pipeline-skills",
       "coverHeight": 167,
       "coverColor": "#624237",
-      "score": 100.8,
+      "score": 100.7,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -2159,7 +2161,7 @@
       "sourceQuery": "vibecoding-hot",
       "searchMode": "stars",
       "createdAt": "2026-01-07T16:39:03Z",
-      "pushedAt": "2026-10-04T17:38:34Z",
+      "pushedAt": "2026-10-05T10:16:43Z",
       "likes": 0,
       "rank": 46
     },
@@ -2192,7 +2194,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/vibeeval/vibecosystem",
       "coverHeight": 235,
       "coverColor": "#3f345f",
-      "score": 100.7,
+      "score": 100.6,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -2217,8 +2219,8 @@
       "name": "agent-vibes",
       "description": "Unified Agent Gateway — Enables Claude Code CLI and Cursor IDE to use free AI backends (Antigravity, Codex) through protocol translation",
       "url": "https://github.com/funny-vibes/agent-vibes",
-      "stars": 360,
-      "forks": 74,
+      "stars": 359,
+      "forks": 73,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -2240,7 +2242,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/funny-vibes/agent-vibes",
       "coverHeight": 267,
       "coverColor": "#214b4c",
-      "score": 99.7,
+      "score": 100.0,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -2255,7 +2257,7 @@
       "sourceQuery": "vibecoding-hot",
       "searchMode": "stars",
       "createdAt": "2026-03-08T00:46:59Z",
-      "pushedAt": "2026-09-30T01:03:35Z",
+      "pushedAt": "2026-10-05T12:52:25Z",
       "likes": 0,
       "rank": 48
     },
@@ -2266,7 +2268,7 @@
       "description": "Turn any browser into your terminal & command your agents on the go.",
       "url": "https://github.com/amantus-ai/vibetunnel",
       "stars": 4678,
-      "forks": 336,
+      "forks": 335,
       "language": "TypeScript",
       "topics": [
         "remote",
@@ -2423,53 +2425,6 @@
       "rank": 52
     },
     {
-      "id": "jetbrains__thinkrail",
-      "repo": "JetBrains/thinkrail",
-      "name": "thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE - The Vibe You Need",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "stars": 508,
-      "forks": 41,
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "agent-skills",
-        "agentic-ai",
-        "agentic-workflow",
-        "ai-coding",
-        "ai-tools",
-        "pi-agent",
-        "pi-agent-extension"
-      ],
-      "category": "Agent",
-      "tags": [
-        "Agent",
-        "agent skills",
-        "agentic ai",
-        "agentic workflow"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/JetBrains/thinkrail",
-      "coverHeight": 196,
-      "coverColor": "#3f345f",
-      "score": 98.7,
-      "starsDelta": 0,
-      "starsPerDay": 0.0,
-      "trendLabel": "hot",
-      "aiSignals": [
-        "agent",
-        "agentic",
-        "ai",
-        "vibe",
-        "vibecoding"
-      ],
-      "sourceQuery": "vibe-phrase-rising",
-      "searchMode": "updated",
-      "createdAt": "2026-07-08T07:40:43Z",
-      "pushedAt": "2026-10-05T14:27:31Z",
-      "likes": 0,
-      "rank": 53
-    },
-    {
       "id": "receptron__mulmoterminal",
       "repo": "receptron/mulmoterminal",
       "name": "mulmoterminal",
@@ -2515,7 +2470,7 @@
       "createdAt": "2026-06-14T12:39:37Z",
       "pushedAt": "2026-10-03T23:42:19Z",
       "likes": 0,
-      "rank": 54
+      "rank": 53
     },
     {
       "id": "marvkr__better-design",
@@ -2560,7 +2515,7 @@
       "createdAt": "2026-05-05T20:01:56Z",
       "pushedAt": "2026-09-22T18:59:05Z",
       "likes": 0,
-      "rank": 55,
+      "rank": 54,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -2608,7 +2563,95 @@
       "createdAt": "2026-02-27T02:28:57Z",
       "pushedAt": "2026-10-01T23:36:55Z",
       "likes": 0,
+      "rank": 55
+    },
+    {
+      "id": "49-agents__49-ide",
+      "repo": "49-Agents/49-IDE",
+      "name": "49-IDE",
+      "description": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host…",
+      "url": "https://github.com/49-Agents/49-IDE",
+      "stars": 621,
+      "forks": 67,
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "cli",
+        "codex",
+        "ide",
+        "terminal-based",
+        "vibecoding"
+      ],
+      "category": "Agent",
+      "tags": [
+        "Agent",
+        "claude code",
+        "cli",
+        "codex"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/49-Agents/49-IDE",
+      "coverHeight": 179,
+      "coverColor": "#624237",
+      "score": 98.0,
+      "starsDelta": 0,
+      "starsPerDay": 0.0,
+      "trendLabel": "hot",
+      "aiSignals": [
+        "ai",
+        "claude",
+        "codex",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "searchMode": "stars",
+      "createdAt": "2026-02-27T02:28:57Z",
+      "pushedAt": "2026-10-01T23:36:55Z",
+      "likes": 0,
       "rank": 56
+    },
+    {
+      "id": "mohi-devhub__antivibe",
+      "repo": "mohi-devhub/antivibe",
+      "name": "antivibe",
+      "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
+      "url": "https://github.com/mohi-devhub/antivibe",
+      "stars": 1119,
+      "forks": 80,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "claude-code",
+        "claude-code-skill",
+        "code-explanation",
+        "education",
+        "learning",
+        "vibecoding"
+      ],
+      "category": "Agent",
+      "tags": [
+        "Agent",
+        "AI",
+        "claude code",
+        "claude code skill"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/mohi-devhub/antivibe",
+      "coverHeight": 244,
+      "coverColor": "#3f345f",
+      "score": 97.7,
+      "starsDelta": 1,
+      "starsPerDay": 0.6,
+      "trendLabel": "rising",
+      "aiSignals": [
+        "ai",
+        "claude",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "searchMode": "stars",
+      "createdAt": "2026-04-10T18:07:20Z",
+      "pushedAt": "2026-07-31T10:26:47Z",
+      "likes": 0,
+      "rank": 57
     },
     {
       "id": "gonzaroman__acornix",
@@ -2657,7 +2700,7 @@
       "createdAt": "2026-02-11T16:07:44Z",
       "pushedAt": "2026-10-03T23:27:36Z",
       "likes": 0,
-      "rank": 57
+      "rank": 58
     },
     {
       "id": "ideaplexa__voicetypr",
@@ -2701,7 +2744,7 @@
       "createdAt": "2025-07-06T18:32:58Z",
       "pushedAt": "2026-09-29T21:40:54Z",
       "likes": 0,
-      "rank": 58
+      "rank": 59
     },
     {
       "id": "meodai__skill.color-expert",
@@ -2746,7 +2789,7 @@
       "createdAt": "2026-03-22T17:09:18Z",
       "pushedAt": "2026-09-23T21:11:45Z",
       "likes": 0,
-      "rank": 59
+      "rank": 60
     },
     {
       "id": "paladini__harness-score",
@@ -2791,52 +2834,6 @@
       "createdAt": "2026-07-11T03:25:42Z",
       "pushedAt": "2026-10-05T14:35:48Z",
       "likes": 0,
-      "rank": 60
-    },
-    {
-      "id": "houyanchao__chatgpt-gemini-timeline",
-      "repo": "houyanchao/chatgpt-gemini-timeline",
-      "name": "chatgpt-gemini-timeline",
-      "description": "ChatGPT & Gemini：Add Folders, Timeline & Prompts. - 为 ChatGPT & Gemini 添加文件夹、提示词库和时间轴。",
-      "url": "https://github.com/houyanchao/chatgpt-gemini-timeline",
-      "stars": 461,
-      "forks": 35,
-      "language": "JavaScript",
-      "topics": [
-        "chatgpt",
-        "chrome",
-        "chrome-extension",
-        "deepseek",
-        "deepseek-harness",
-        "deepseek-harness-plugin",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "category": "AI Tool",
-      "tags": [
-        "AI Tool",
-        "chatgpt",
-        "chrome",
-        "chrome extension"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/houyanchao/chatgpt-gemini-timeline",
-      "coverHeight": 165,
-      "coverColor": "#214b4c",
-      "score": 95.4,
-      "starsDelta": 0,
-      "starsPerDay": 0.0,
-      "trendLabel": "hot",
-      "aiSignals": [
-        "deepseek",
-        "gemini",
-        "vibe",
-        "vibecoding"
-      ],
-      "sourceQuery": "vibecoding-hot",
-      "searchMode": "stars",
-      "createdAt": "2025-10-11T14:21:46Z",
-      "pushedAt": "2026-09-27T02:43:30Z",
-      "likes": 0,
       "rank": 61
     },
     {
@@ -2874,6 +2871,52 @@
       "pushedAt": "2026-09-29T21:30:04Z",
       "likes": 0,
       "rank": 62
+    },
+    {
+      "id": "houyanchao__chatgpt-gemini-timeline",
+      "repo": "houyanchao/chatgpt-gemini-timeline",
+      "name": "chatgpt-gemini-timeline",
+      "description": "ChatGPT & Gemini：Add Folders, Timeline & Prompts. - 为 ChatGPT & Gemini 添加文件夹、提示词库和时间轴。",
+      "url": "https://github.com/houyanchao/chatgpt-gemini-timeline",
+      "stars": 461,
+      "forks": 35,
+      "language": "JavaScript",
+      "topics": [
+        "chatgpt",
+        "chrome",
+        "chrome-extension",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "AI Tool",
+      "tags": [
+        "AI Tool",
+        "chatgpt",
+        "chrome",
+        "chrome extension"
+      ],
+      "thumbnail": "https://opengraph.githubassets.com/1/houyanchao/chatgpt-gemini-timeline",
+      "coverHeight": 165,
+      "coverColor": "#214b4c",
+      "score": 95.3,
+      "starsDelta": 0,
+      "starsPerDay": 0.0,
+      "trendLabel": "hot",
+      "aiSignals": [
+        "deepseek",
+        "gemini",
+        "vibe",
+        "vibecoding"
+      ],
+      "sourceQuery": "vibecoding-hot",
+      "searchMode": "stars",
+      "createdAt": "2025-10-11T14:21:46Z",
+      "pushedAt": "2026-09-27T02:43:30Z",
+      "likes": 0,
+      "rank": 63
     },
     {
       "id": "vcmf__dim0",
@@ -2914,7 +2957,7 @@
       "createdAt": "2026-03-20T19:42:54Z",
       "pushedAt": "2026-09-24T12:05:00Z",
       "likes": 0,
-      "rank": 63,
+      "rank": 64,
       "starsDelta": 2,
       "starsPerDay": 2.4,
       "trendLabel": "rising",
@@ -2963,7 +3006,7 @@
       "createdAt": "2026-05-01T03:11:04Z",
       "pushedAt": "2026-10-05T14:13:58Z",
       "likes": 0,
-      "rank": 64
+      "rank": 65
     },
     {
       "id": "thomwebb__gac",
@@ -2994,7 +3037,7 @@
       "thumbnail": "https://opengraph.githubassets.com/1/thomwebb/gac",
       "coverHeight": 269,
       "coverColor": "#624237",
-      "score": 94.0,
+      "score": 93.9,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -3010,7 +3053,7 @@
       "createdAt": "2024-12-12T02:41:28Z",
       "pushedAt": "2026-09-20T20:44:53Z",
       "likes": 0,
-      "rank": 65
+      "rank": 66
     },
     {
       "id": "agnosticui__agnosticui",
@@ -3052,7 +3095,7 @@
       "createdAt": "2020-09-07T21:03:08Z",
       "pushedAt": "2026-06-30T19:42:00Z",
       "likes": 0,
-      "rank": 66
+      "rank": 67
     },
     {
       "id": "roedyrustam__vibes-plug",
@@ -3101,7 +3144,7 @@
       "createdAt": "2026-05-21T21:03:29Z",
       "pushedAt": "2026-09-30T19:35:36Z",
       "likes": 0,
-      "rank": 67
+      "rank": 68
     },
     {
       "id": "mobilereality__mdma",
@@ -3149,7 +3192,7 @@
       "createdAt": "2026-03-04T15:18:17Z",
       "pushedAt": "2026-09-29T15:26:03Z",
       "likes": 0,
-      "rank": 68
+      "rank": 69
     },
     {
       "id": "handmux__handmux",
@@ -3196,7 +3239,7 @@
       "createdAt": "2026-06-28T07:20:33Z",
       "pushedAt": "2026-10-02T17:12:35Z",
       "likes": 0,
-      "rank": 69
+      "rank": 70
     },
     {
       "id": "digipulse-engineering__gaai-framework",
@@ -3244,7 +3287,7 @@
       "createdAt": "2026-02-07T16:24:30Z",
       "pushedAt": "2026-09-29T00:00:23Z",
       "likes": 0,
-      "rank": 70
+      "rank": 71
     },
     {
       "id": "xu123-bob__baize",
@@ -3289,7 +3332,7 @@
       "createdAt": "2026-09-12T05:17:38Z",
       "pushedAt": "2026-09-17T04:09:22Z",
       "likes": 0,
-      "rank": 71
+      "rank": 72
     },
     {
       "id": "di-sukharev__vibe",
@@ -3322,7 +3365,7 @@
       "createdAt": "2026-05-12T11:16:15Z",
       "pushedAt": "2026-09-26T20:57:31Z",
       "likes": 0,
-      "rank": 72
+      "rank": 73
     },
     {
       "id": "the911fund__skill-of-skills",
@@ -3369,7 +3412,7 @@
       "createdAt": "2026-01-23T02:43:56Z",
       "pushedAt": "2026-10-04T18:25:04Z",
       "likes": 0,
-      "rank": 73
+      "rank": 74
     },
     {
       "id": "bearlike__assistant",
@@ -3419,7 +3462,7 @@
       "createdAt": "2024-05-02T05:13:24Z",
       "pushedAt": "2026-09-14T16:11:18Z",
       "likes": 0,
-      "rank": 74
+      "rank": 75
     },
     {
       "id": "dliedke__claudecodeextension",
@@ -3466,7 +3509,7 @@
       "createdAt": "2025-09-27T00:54:32Z",
       "pushedAt": "2026-10-04T18:32:51Z",
       "likes": 0,
-      "rank": 75
+      "rank": 76
     },
     {
       "id": "molefrog__moi",
@@ -3504,7 +3547,7 @@
       "createdAt": "2026-03-07T12:09:57Z",
       "pushedAt": "2026-10-05T10:02:25Z",
       "likes": 0,
-      "rank": 76,
+      "rank": 77,
       "starsDelta": 0,
       "starsPerDay": 0.0,
       "trendLabel": "hot",
@@ -3550,7 +3593,7 @@
       "createdAt": "2026-06-12T10:14:10Z",
       "pushedAt": "2026-09-19T20:20:52Z",
       "likes": 0,
-      "rank": 77
+      "rank": 78
     },
     {
       "id": "ryoitabashi__shelly",
@@ -3597,7 +3640,7 @@
       "createdAt": "2026-03-04T22:41:59Z",
       "pushedAt": "2026-09-29T00:48:53Z",
       "likes": 0,
-      "rank": 78
+      "rank": 79
     },
     {
       "id": "pengyue-polaron__deepseek-harness-genui",
@@ -3642,7 +3685,7 @@
       "createdAt": "2026-08-14T20:28:02Z",
       "pushedAt": "2026-09-24T08:34:32Z",
       "likes": 0,
-      "rank": 79
+      "rank": 80
     },
     {
       "id": "edison7009__coffee-cli",
@@ -3682,53 +3725,6 @@
       "searchMode": "updated",
       "createdAt": "2026-04-08T14:52:49Z",
       "pushedAt": "2026-09-19T04:31:23Z",
-      "likes": 0,
-      "rank": 80
-    },
-    {
-      "id": "acoder-ai-infra__agenui-studio",
-      "repo": "acoder-ai-infra/agenui-studio",
-      "name": "agenui-studio",
-      "description": "Self-hosted studio for generating, previewing, binding, and shipping executable AGenUI interfaces with AI agents.",
-      "url": "https://github.com/acoder-ai-infra/agenui-studio",
-      "stars": 74,
-      "forks": 1,
-      "language": "Go",
-      "topics": [
-        "agentic-ui",
-        "agenui",
-        "ai-agents",
-        "data-binding",
-        "developer-tools",
-        "generative-ui",
-        "golang",
-        "llm"
-      ],
-      "category": "UI / Design",
-      "tags": [
-        "UI / Design",
-        "agentic ui",
-        "agenui",
-        "ai agents"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/acoder-ai-infra/agenui-studio",
-      "coverHeight": 217,
-      "coverColor": "#3f345f",
-      "score": 83.3,
-      "starsDelta": 0,
-      "starsPerDay": 0.0,
-      "trendLabel": "hot",
-      "aiSignals": [
-        "agentic",
-        "ai",
-        "generative",
-        "llm",
-        "mcp"
-      ],
-      "sourceQuery": "generative-ui-rising",
-      "searchMode": "updated",
-      "createdAt": "2026-09-14T02:17:18Z",
-      "pushedAt": "2026-09-30T03:21:52Z",
       "likes": 0,
       "rank": 81
     },
@@ -3961,54 +3957,6 @@
       "rank": 86
     },
     {
-      "id": "simonlin1212__sdesign",
-      "repo": "simonlin1212/SDesign",
-      "name": "SDesign",
-      "description": "去 AI 味设计系统库 · 6 美学家族 × 64 套设计系统 · 复制一段提示词粘给任意 AI 就出片不飘 · 含在线预览站 | Anti-slop design systems for any AI — 64 curated design systems across 6 aesthetics, copy-paste prompts, live demo.",
-      "url": "https://github.com/simonlin1212/SDesign",
-      "stars": 39,
-      "forks": 7,
-      "language": "HTML",
-      "topics": [
-        "ai-agents",
-        "ai-design",
-        "anti-slop",
-        "claude",
-        "claude-code",
-        "css",
-        "design-systems",
-        "design-taste"
-      ],
-      "category": "UI / Design",
-      "tags": [
-        "UI / Design",
-        "ai agents",
-        "ai design",
-        "anti slop"
-      ],
-      "thumbnail": "https://opengraph.githubassets.com/1/simonlin1212/SDesign",
-      "coverHeight": 178,
-      "coverColor": "#3f345f",
-      "score": 80.1,
-      "starsDelta": 0,
-      "starsPerDay": 0.0,
-      "trendLabel": "hot",
-      "aiSignals": [
-        "ai",
-        "claude",
-        "generative",
-        "llm",
-        "prompt",
-        "vibe"
-      ],
-      "sourceQuery": "generative-ui-rising",
-      "searchMode": "updated",
-      "createdAt": "2026-06-27T11:28:32Z",
-      "pushedAt": "2026-09-25T09:46:16Z",
-      "likes": 0,
-      "rank": 87
-    },
-    {
       "id": "tuo-lei__vibe-replay",
       "repo": "tuo-lei/vibe-replay",
       "name": "vibe-replay",
@@ -4053,7 +4001,7 @@
       "createdAt": "2026-03-05T08:24:27Z",
       "pushedAt": "2026-09-26T21:08:09Z",
       "likes": 0,
-      "rank": 88
+      "rank": 87
     },
     {
       "id": "mirafold__mirafold",
@@ -4102,7 +4050,7 @@
       "createdAt": "2026-07-04T05:53:21Z",
       "pushedAt": "2026-10-03T17:07:43Z",
       "likes": 0,
-      "rank": 89
+      "rank": 88
     },
     {
       "id": "copilotkit__generative-ui",
@@ -4141,7 +4089,7 @@
       "createdAt": "2026-01-08T14:15:31Z",
       "pushedAt": "2026-03-20T19:55:36Z",
       "likes": 0,
-      "rank": 90
+      "rank": 89
     },
     {
       "id": "007m7__sego-agent",
@@ -4189,7 +4137,7 @@
       "createdAt": "2026-05-20T08:08:10Z",
       "pushedAt": "2026-09-18T16:03:00Z",
       "likes": 0,
-      "rank": 91
+      "rank": 90
     },
     {
       "id": "iblai__vibe",
@@ -4239,7 +4187,7 @@
       "createdAt": "2026-03-27T23:48:36Z",
       "pushedAt": "2026-09-16T13:19:58Z",
       "likes": 0,
-      "rank": 92
+      "rank": 91
     },
     {
       "id": "mustbesimo__web-design-studio",
@@ -4285,7 +4233,7 @@
       "createdAt": "2026-05-30T07:01:42Z",
       "pushedAt": "2026-09-16T13:13:10Z",
       "likes": 0,
-      "rank": 93
+      "rank": 92
     },
     {
       "id": "ghostapp-ai__ghost",
@@ -4331,7 +4279,7 @@
       "createdAt": "2026-02-20T14:18:33Z",
       "pushedAt": "2026-10-01T12:20:09Z",
       "likes": 0,
-      "rank": 94
+      "rank": 93
     },
     {
       "id": "anton-abyzov__specweave",
@@ -4375,7 +4323,7 @@
       "createdAt": "2025-10-25T21:31:34Z",
       "pushedAt": "2026-10-03T10:39:27Z",
       "likes": 0,
-      "rank": 95
+      "rank": 94
     },
     {
       "id": "inneraura__hyperweave",
@@ -4421,7 +4369,7 @@
       "createdAt": "2025-10-14T03:17:03Z",
       "pushedAt": "2026-09-15T17:04:22Z",
       "likes": 0,
-      "rank": 96
+      "rank": 95
     },
     {
       "id": "othmanadi__openui-forge",
@@ -4469,7 +4417,7 @@
       "createdAt": "2026-03-22T14:50:50Z",
       "pushedAt": "2026-08-03T10:22:21Z",
       "likes": 0,
-      "rank": 97
+      "rank": 96
     },
     {
       "id": "haabe__mycelium",
@@ -4516,7 +4464,7 @@
       "createdAt": "2026-04-07T10:48:02Z",
       "pushedAt": "2026-09-25T11:09:11Z",
       "likes": 0,
-      "rank": 98
+      "rank": 97
     }
   ]
 }
