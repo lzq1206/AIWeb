@@ -1,11 +1,87 @@
 {
-  "nextSearch": 4,
-  "runs": 181,
-  "lastRun": "2026-10-30T09:59:52.821921Z",
+  "nextSearch": 0,
+  "runs": 182,
+  "lastRun": "2026-10-30T17:59:49.082151Z",
   "starHistory": {
     "jetbrains/thinkrail": {
-      "stars": 6290,
-      "observedAt": "2026-10-30T09:59:49.413753Z"
+      "stars": 6464,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "marvkr/better-design": {
+      "stars": 545,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "copilotkit/openbot": {
+      "stars": 8620,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "miurla/morphic": {
+      "stars": 9215,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "vcmf/dim0": {
+      "stars": 193,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "molefrog/moi": {
+      "stars": 191,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "mobilereality/mdma": {
+      "stars": 72,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "shadcn-ui/ui": {
+      "stars": 126975,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "comarkdown/comark": {
+      "stars": 1084,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "agnosticui/agnosticui": {
+      "stars": 833,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "receptron/mulmochat": {
+      "stars": 177,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "mindlab-research/dsh-generative-ui": {
+      "stars": 99,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "pengyue-polaron/deepseek-harness-genui": {
+      "stars": 122,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "cattmonkey/chaosintelligence": {
+      "stars": 205,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "acoder-ai-infra/agenui-studio": {
+      "stars": 79,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "marcusquinn/aidevops": {
+      "stars": 425,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "ggui-ai/ggui": {
+      "stars": 43,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "tianma-if/edgeever": {
+      "stars": 3048,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "dyoshikawa/rulesync": {
+      "stars": 1568,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
+    },
+    "herdodp/snapgent-connector": {
+      "stars": 66,
+      "observedAt": "2026-10-30T17:59:44.819404Z"
     },
     "onlook-dev/onlook": {
       "stars": 27044,
@@ -147,72 +223,12 @@
       "stars": 149,
       "observedAt": "2026-10-30T00:58:25.199445Z"
     },
-    "marvkr/better-design": {
-      "stars": 545,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "copilotkit/openbot": {
-      "stars": 7977,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "miurla/morphic": {
-      "stars": 9210,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "vcmf/dim0": {
-      "stars": 192,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "molefrog/moi": {
-      "stars": 191,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "mobilereality/mdma": {
-      "stars": 72,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "shadcn-ui/ui": {
-      "stars": 126893,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "comarkdown/comark": {
-      "stars": 1082,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "agnosticui/agnosticui": {
-      "stars": 832,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "receptron/mulmochat": {
-      "stars": 177,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "mindlab-research/dsh-generative-ui": {
-      "stars": 91,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "pengyue-polaron/deepseek-harness-genui": {
-      "stars": 122,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "cattmonkey/chaosintelligence": {
-      "stars": 204,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "acoder-ai-infra/agenui-studio": {
-      "stars": 79,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
     "akzar1el/mcp-geo": {
       "stars": 39,
       "observedAt": "2026-10-29T18:28:10.625034Z"
     },
     "the911fund/skill-of-skills": {
       "stars": 81,
-      "observedAt": "2026-10-29T18:28:10.625034Z"
-    },
-    "marcusquinn/aidevops": {
-      "stars": 423,
       "observedAt": "2026-10-29T18:28:10.625034Z"
     },
     "polterguy/magic": {
@@ -233,10 +249,6 @@
     },
     "mustbesimo/web-design-studio": {
       "stars": 50,
-      "observedAt": "2026-10-28T20:15:45.597033Z"
-    },
-    "ggui-ai/ggui": {
-      "stars": 43,
       "observedAt": "2026-10-28T20:15:45.597033Z"
     },
     "jiaxuan-tao/vibe-coding-lab": {
@@ -275,10 +287,6 @@
       "stars": 1129,
       "observedAt": "2026-10-26T13:01:00.497553Z"
     },
-    "tianma-if/edgeever": {
-      "stars": 2832,
-      "observedAt": "2026-10-26T04:45:47.898114Z"
-    },
     "rose22/openlumara": {
       "stars": 523,
       "observedAt": "2026-10-26T04:45:47.898114Z"
@@ -310,10 +318,6 @@
     "campfirein/byterover-cli": {
       "stars": 4947,
       "observedAt": "2026-10-24T20:48:31.275082Z"
-    },
-    "dyoshikawa/rulesync": {
-      "stars": 1550,
-      "observedAt": "2026-10-24T10:58:45.047787Z"
     },
     "demondamon/agenticx": {
       "stars": 644,
