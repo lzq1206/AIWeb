@@ -1,8 +1,88 @@
 {
-  "nextSearch": 4,
-  "runs": 193,
-  "lastRun": "2026-11-02T21:42:29.591482Z",
+  "nextSearch": 0,
+  "runs": 194,
+  "lastRun": "2026-11-03T06:45:47.461421Z",
   "starHistory": {
+    "upstash/context7": {
+      "stars": 64107,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "marvkr/better-design": {
+      "stars": 553,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "copilotkit/openbot": {
+      "stars": 9935,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "miurla/morphic": {
+      "stars": 9256,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "vcmf/dim0": {
+      "stars": 195,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "molefrog/moi": {
+      "stars": 191,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "mobilereality/mdma": {
+      "stars": 73,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "shadcn-ui/ui": {
+      "stars": 127227,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "comarkdown/comark": {
+      "stars": 1088,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "agnosticui/agnosticui": {
+      "stars": 832,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "receptron/mulmochat": {
+      "stars": 177,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "mindlab-research/dsh-generative-ui": {
+      "stars": 122,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "pengyue-polaron/deepseek-harness-genui": {
+      "stars": 124,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "cattmonkey/chaosintelligence": {
+      "stars": 223,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "the911fund/skill-of-skills": {
+      "stars": 82,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "acoder-ai-infra/agenui-studio": {
+      "stars": 79,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "footprintai/containarium": {
+      "stars": 316,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "ggui-ai/ggui": {
+      "stars": 43,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "mustbesimo/web-design-studio": {
+      "stars": 51,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
+    "receptron/mulmoterminal": {
+      "stars": 258,
+      "observedAt": "2026-11-03T06:45:44.133776Z"
+    },
     "jetbrains/thinkrail": {
       "stars": 7164,
       "observedAt": "2026-11-02T21:42:25.151854Z"
@@ -17,10 +97,6 @@
     },
     "spec-kitty/spec-kitty": {
       "stars": 1712,
-      "observedAt": "2026-11-02T21:42:25.151854Z"
-    },
-    "upstash/context7": {
-      "stars": 64097,
       "observedAt": "2026-11-02T21:42:25.151854Z"
     },
     "nexu-io/open-design": {
@@ -151,58 +227,6 @@
       "stars": 729,
       "observedAt": "2026-11-02T11:04:13.505425Z"
     },
-    "marvkr/better-design": {
-      "stars": 547,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "copilotkit/openbot": {
-      "stars": 9519,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "miurla/morphic": {
-      "stars": 9247,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "vcmf/dim0": {
-      "stars": 194,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "molefrog/moi": {
-      "stars": 191,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "mobilereality/mdma": {
-      "stars": 73,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "shadcn-ui/ui": {
-      "stars": 127119,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "comarkdown/comark": {
-      "stars": 1085,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "agnosticui/agnosticui": {
-      "stars": 833,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "receptron/mulmochat": {
-      "stars": 177,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "mindlab-research/dsh-generative-ui": {
-      "stars": 115,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "pengyue-polaron/deepseek-harness-genui": {
-      "stars": 124,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "cattmonkey/chaosintelligence": {
-      "stars": 205,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
     "marcusquinn/aidevops": {
       "stars": 435,
       "observedAt": "2026-11-02T00:44:02.053422Z"
@@ -211,16 +235,8 @@
       "stars": 3071,
       "observedAt": "2026-11-02T00:44:02.053422Z"
     },
-    "the911fund/skill-of-skills": {
-      "stars": 82,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
     "edison7009/coffee-cli": {
       "stars": 210,
-      "observedAt": "2026-11-02T00:44:02.053422Z"
-    },
-    "acoder-ai-infra/agenui-studio": {
-      "stars": 79,
       "observedAt": "2026-11-02T00:44:02.053422Z"
     },
     "xiaolai/vmark": {
@@ -230,10 +246,6 @@
     "zhnt/loushang": {
       "stars": 1942,
       "observedAt": "2026-11-01T19:38:52.750696Z"
-    },
-    "footprintai/containarium": {
-      "stars": 313,
-      "observedAt": "2026-11-01T06:02:15.404018Z"
     },
     "demondamon/agenticx": {
       "stars": 849,
@@ -259,10 +271,6 @@
       "stars": 1206,
       "observedAt": "2026-10-31T12:27:27.521141Z"
     },
-    "ggui-ai/ggui": {
-      "stars": 43,
-      "observedAt": "2026-10-30T17:59:44.819404Z"
-    },
     "dyoshikawa/rulesync": {
       "stars": 1568,
       "observedAt": "2026-10-30T17:59:44.819404Z"
@@ -283,10 +291,6 @@
       "stars": 44,
       "observedAt": "2026-10-29T18:28:10.625034Z"
     },
-    "mustbesimo/web-design-studio": {
-      "stars": 50,
-      "observedAt": "2026-10-28T20:15:45.597033Z"
-    },
     "jiaxuan-tao/vibe-coding-lab": {
       "stars": 58,
       "observedAt": "2026-10-28T20:15:45.597033Z"
@@ -302,10 +306,6 @@
     "pullboard-dev/pullboard": {
       "stars": 279,
       "observedAt": "2026-10-27T15:21:02.808004Z"
-    },
-    "receptron/mulmoterminal": {
-      "stars": 253,
-      "observedAt": "2026-10-27T00:25:21.812632Z"
     },
     "every-app/open-seo": {
       "stars": 25119,
