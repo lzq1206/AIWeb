@@ -1,8 +1,88 @@
 {
-  "nextSearch": 4,
-  "runs": 226,
-  "lastRun": "2026-11-13T23:32:23.920100Z",
+  "nextSearch": 0,
+  "runs": 227,
+  "lastRun": "2026-11-14T06:21:25.654145Z",
   "starHistory": {
+    "vibex-ai/vibex": {
+      "stars": 238,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "copilotkit/openbot": {
+      "stars": 12152,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "miurla/morphic": {
+      "stars": 9328,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "vcmf/dim0": {
+      "stars": 205,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "shadcn-ui/ui": {
+      "stars": 128146,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "comarkdown/comark": {
+      "stars": 1101,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "agnosticui/agnosticui": {
+      "stars": 832,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "receptron/mulmochat": {
+      "stars": 177,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "mindlab-research/dsh-generative-ui": {
+      "stars": 206,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "builderio/agent-native": {
+      "stars": 7701,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "a2ui-project/a2ui": {
+      "stars": 17322,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "bearlike/assistant": {
+      "stars": 43,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "mustbesimo/web-design-studio": {
+      "stars": 53,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "moi-computer/moi": {
+      "stars": 201,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "superdesigndev/superdesign-prompts": {
+      "stars": 71,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "marcusquinn/aidevops": {
+      "stars": 455,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "tianma-if/edgeever": {
+      "stars": 3233,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "demondamon/agenticx": {
+      "stars": 1062,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "tninja/ai-code-interface.el": {
+      "stars": 304,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
+    "ryoitabashi/shelly": {
+      "stars": 73,
+      "observedAt": "2026-11-14T06:21:22.483057Z"
+    },
     "jetbrains/thinkrail": {
       "stars": 8232,
       "observedAt": "2026-11-13T23:32:20.359257Z"
@@ -79,10 +159,6 @@
       "stars": 2068,
       "observedAt": "2026-11-13T23:32:20.359257Z"
     },
-    "vibex-ai/vibex": {
-      "stars": 238,
-      "observedAt": "2026-11-13T23:32:20.359257Z"
-    },
     "vibeeval/vibecosystem": {
       "stars": 549,
       "observedAt": "2026-11-13T17:11:55.890337Z"
@@ -151,50 +227,6 @@
       "stars": 167,
       "observedAt": "2026-11-13T17:11:55.890337Z"
     },
-    "copilotkit/openbot": {
-      "stars": 11829,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "miurla/morphic": {
-      "stars": 9325,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "vcmf/dim0": {
-      "stars": 205,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "shadcn-ui/ui": {
-      "stars": 128064,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "comarkdown/comark": {
-      "stars": 1099,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "agnosticui/agnosticui": {
-      "stars": 832,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "receptron/mulmochat": {
-      "stars": 177,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "mindlab-research/dsh-generative-ui": {
-      "stars": 206,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "builderio/agent-native": {
-      "stars": 7690,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "a2ui-project/a2ui": {
-      "stars": 17248,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "bearlike/assistant": {
-      "stars": 43,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
     "mangi-11/eta": {
       "stars": 2848,
       "observedAt": "2026-11-13T06:44:12.569683Z"
@@ -215,20 +247,8 @@
       "stars": 667,
       "observedAt": "2026-11-13T06:44:12.569683Z"
     },
-    "mustbesimo/web-design-studio": {
-      "stars": 51,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
     "ghostapp-ai/ghost": {
       "stars": 51,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "moi-computer/moi": {
-      "stars": 201,
-      "observedAt": "2026-11-13T06:44:12.569683Z"
-    },
-    "superdesigndev/superdesign-prompts": {
-      "stars": 70,
       "observedAt": "2026-11-13T06:44:12.569683Z"
     },
     "automazeio/ccpm": {
@@ -241,10 +261,6 @@
     },
     "marvkr/better-design": {
       "stars": 572,
-      "observedAt": "2026-11-12T07:08:35.272493Z"
-    },
-    "marcusquinn/aidevops": {
-      "stars": 452,
       "observedAt": "2026-11-12T07:08:35.272493Z"
     },
     "footprintai/containarium": {
@@ -271,10 +287,6 @@
       "stars": 374,
       "observedAt": "2026-11-11T06:16:45.034774Z"
     },
-    "tianma-if/edgeever": {
-      "stars": 3197,
-      "observedAt": "2026-11-11T06:16:45.034774Z"
-    },
     "tiann/hapi": {
       "stars": 5398,
       "observedAt": "2026-11-11T06:16:45.034774Z"
@@ -290,10 +302,6 @@
     "nexu-io/html-anything": {
       "stars": 9493,
       "observedAt": "2026-11-10T21:17:21.022509Z"
-    },
-    "demondamon/agenticx": {
-      "stars": 1037,
-      "observedAt": "2026-11-10T03:33:31.838469Z"
     },
     "swanhubx/swanlab": {
       "stars": 4361,
@@ -323,10 +331,6 @@
       "stars": 7884,
       "observedAt": "2026-11-07T05:57:36.254108Z"
     },
-    "tninja/ai-code-interface.el": {
-      "stars": 296,
-      "observedAt": "2026-11-07T05:57:36.254108Z"
-    },
     "xiaolai/vmark": {
       "stars": 898,
       "observedAt": "2026-11-05T06:44:29.078701Z"
@@ -354,10 +358,6 @@
     "markfulton/nanobananaeditor": {
       "stars": 729,
       "observedAt": "2026-11-02T11:04:13.505425Z"
-    },
-    "ryoitabashi/shelly": {
-      "stars": 68,
-      "observedAt": "2026-11-01T06:02:15.404018Z"
     },
     "huangwb8/chineseresearchlatex": {
       "stars": 2991,
