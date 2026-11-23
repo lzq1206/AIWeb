@@ -1,8 +1,88 @@
 {
-  "nextSearch": 0,
-  "runs": 251,
-  "lastRun": "2026-11-22T19:38:14.228375Z",
+  "nextSearch": 2,
+  "runs": 252,
+  "lastRun": "2026-11-23T01:41:43.666180Z",
   "starHistory": {
+    "jetbrains/thinkrail": {
+      "stars": 8404,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "onlook-dev/onlook": {
+      "stars": 27781,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "foryourhealth111-pixel/vibe-skills": {
+      "stars": 3838,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "chaterm/chaterm": {
+      "stars": 3114,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "vibeeval/vibecosystem": {
+      "stars": 554,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "hanshuaikang/nezha": {
+      "stars": 1899,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "zseven-w/openpencil": {
+      "stars": 7321,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "flipped-aurora/gin-vue-admin": {
+      "stars": 25163,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "zgsm-ai/costrict": {
+      "stars": 4465,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "withkynam/vibecode-pro-max-kit": {
+      "stars": 1173,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "aerovato/container": {
+      "stars": 392,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "amantus-ai/vibetunnel": {
+      "stars": 4709,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "willoscar/research-units-pipeline-skills": {
+      "stars": 520,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "funny-vibes/agent-vibes": {
+      "stars": 363,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "zseven-w/rish-app": {
+      "stars": 163,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "jaycrl/mobilevc": {
+      "stars": 213,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "ok-oldking/ok-script": {
+      "stars": 854,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "houyanchao/chatgpt-gemini-timeline": {
+      "stars": 478,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "dojocodinglabs/remotion-superpowers": {
+      "stars": 186,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
+    "49-agents/49-ide": {
+      "stars": 589,
+      "observedAt": "2026-11-23T01:41:40.607259Z"
+    },
     "copilotkit/openbot": {
       "stars": 13200,
       "observedAt": "2026-11-22T19:38:10.944809Z"
@@ -83,18 +163,6 @@
       "stars": 97,
       "observedAt": "2026-11-22T19:38:10.944809Z"
     },
-    "jetbrains/thinkrail": {
-      "stars": 8398,
-      "observedAt": "2026-11-22T11:22:49.090129Z"
-    },
-    "onlook-dev/onlook": {
-      "stars": 27737,
-      "observedAt": "2026-11-22T11:22:49.090129Z"
-    },
-    "foryourhealth111-pixel/vibe-skills": {
-      "stars": 3837,
-      "observedAt": "2026-11-22T11:22:49.090129Z"
-    },
     "spec-kitty/spec-kitty": {
       "stars": 1736,
       "observedAt": "2026-11-22T11:22:49.090129Z"
@@ -162,74 +230,6 @@
     "automazeio/ccpm": {
       "stars": 8462,
       "observedAt": "2026-11-22T11:22:49.090129Z"
-    },
-    "chaterm/chaterm": {
-      "stars": 3114,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "vibeeval/vibecosystem": {
-      "stars": 554,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "hanshuaikang/nezha": {
-      "stars": 1899,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "zseven-w/openpencil": {
-      "stars": 7313,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "flipped-aurora/gin-vue-admin": {
-      "stars": 25160,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "zgsm-ai/costrict": {
-      "stars": 4465,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "withkynam/vibecode-pro-max-kit": {
-      "stars": 1173,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "aerovato/container": {
-      "stars": 392,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "amantus-ai/vibetunnel": {
-      "stars": 4709,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "willoscar/research-units-pipeline-skills": {
-      "stars": 519,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "funny-vibes/agent-vibes": {
-      "stars": 363,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "zseven-w/rish-app": {
-      "stars": 163,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "jaycrl/mobilevc": {
-      "stars": 213,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "ok-oldking/ok-script": {
-      "stars": 853,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "houyanchao/chatgpt-gemini-timeline": {
-      "stars": 478,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "dojocodinglabs/remotion-superpowers": {
-      "stars": 184,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
-    },
-    "49-agents/49-ide": {
-      "stars": 589,
-      "observedAt": "2026-11-22T01:17:52.384206Z"
     },
     "superdesigndev/superdesign-prompts": {
       "stars": 84,
