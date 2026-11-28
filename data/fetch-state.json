@@ -1,19 +1,87 @@
 {
-  "nextSearch": 2,
-  "runs": 264,
-  "lastRun": "2026-11-28T07:46:42.797986Z",
+  "nextSearch": 4,
+  "runs": 265,
+  "lastRun": "2026-11-28T17:31:33.134055Z",
   "starHistory": {
     "jetbrains/thinkrail": {
-      "stars": 8481,
-      "observedAt": "2026-11-28T07:46:39.701719Z"
+      "stars": 8484,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
     },
     "onlook-dev/onlook": {
-      "stars": 28018,
-      "observedAt": "2026-11-28T07:46:39.701719Z"
+      "stars": 28035,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
     },
     "foryourhealth111-pixel/vibe-skills": {
       "stars": 3856,
-      "observedAt": "2026-11-28T07:46:39.701719Z"
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "nocobase/nocobase": {
+      "stars": 25043,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "upstash/context7": {
+      "stars": 65578,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "nexu-io/open-design": {
+      "stars": 109984,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "zarazhangrui/frontend-slides": {
+      "stars": 33054,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "wonderwhy-er/desktopcommandermcp": {
+      "stars": 10451,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "zilliztech/claude-context": {
+      "stars": 12742,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "egonex-ai/understand-anything": {
+      "stars": 94798,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "oraios/serena": {
+      "stars": 31780,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "agent-of-empires/agent-of-empires": {
+      "stars": 5071,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "smtg-ai/claude-squad": {
+      "stars": 8879,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "spacering-net/codeg": {
+      "stars": 4742,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "vinvcn/mattpocock-skills-zh-cn": {
+      "stars": 6187,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "tutti-os/tutti": {
+      "stars": 3956,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "haydenschmitty/floorplan": {
+      "stars": 7090,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "zhnt/loushang": {
+      "stars": 2107,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "automazeio/ccpm": {
+      "stars": 8477,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
+    },
+    "nexu-io/opengame": {
+      "stars": 2838,
+      "observedAt": "2026-11-28T17:31:29.889495Z"
     },
     "chaterm/chaterm": {
       "stars": 3116,
@@ -165,70 +233,6 @@
     },
     "himovo/movo": {
       "stars": 793,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "nocobase/nocobase": {
-      "stars": 25029,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "upstash/context7": {
-      "stars": 65533,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "nexu-io/open-design": {
-      "stars": 109755,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "zarazhangrui/frontend-slides": {
-      "stars": 33003,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "wonderwhy-er/desktopcommandermcp": {
-      "stars": 10438,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "zilliztech/claude-context": {
-      "stars": 12736,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "egonex-ai/understand-anything": {
-      "stars": 94661,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "oraios/serena": {
-      "stars": 31745,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "agent-of-empires/agent-of-empires": {
-      "stars": 4985,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "smtg-ai/claude-squad": {
-      "stars": 8876,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "spacering-net/codeg": {
-      "stars": 4714,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "vinvcn/mattpocock-skills-zh-cn": {
-      "stars": 6168,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "tutti-os/tutti": {
-      "stars": 3970,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "haydenschmitty/floorplan": {
-      "stars": 6990,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "zhnt/loushang": {
-      "stars": 2107,
-      "observedAt": "2026-11-27T12:17:06.591739Z"
-    },
-    "automazeio/ccpm": {
-      "stars": 8475,
       "observedAt": "2026-11-27T12:17:06.591739Z"
     },
     "pengyue-polaron/deepseek-harness-genui": {
